@@ -9,6 +9,8 @@ describe("landing page — ajustes da oferta e responsividade", () => {
   it("mantém a copy e os materiais solicitados", () => {
     expect(source).toContain("Casamento Inteligente - Método CASAR+: Aprenda a negociar com fornecedores");
     expect(source).toContain("Guia Casamento Sem Golpes");
+    expect(source).toContain("Organize orçamento, pagamentos e compromissos para saber quanto você ainda pode gastar.");
+    expect(source).toContain('style={{ paddingRight: "7px" }}');
     expect(source).not.toContain("Checklists e calculadora");
     expect(source).not.toContain("Guia de negociação");
     expect(source).not.toContain("Objeções comuns");

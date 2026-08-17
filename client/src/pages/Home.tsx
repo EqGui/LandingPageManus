@@ -60,7 +60,7 @@ const learningBlocks = [
 
 const materials = [
   { label: "Curso completo", title: "Método CASAR+", copy: "Curso completo para aprender a tomar decisões mais estratégicas durante o planejamento e as contratações.", Icon: BookOpen, tone: "olive" },
-  { label: "Ferramenta", title: "Planner Financeiro", copy: "Organize orçamento, pagamentos e compromissos para saber quanto você pode gastar e quanto ainda falta pagar.", Icon: WalletCards, tone: "sand" },
+  { label: "Ferramenta", title: "Planner Financeiro", copy: "Organize orçamento, pagamentos e compromissos para saber quanto você ainda pode gastar.", Icon: WalletCards, tone: "sand" },
   { label: "Ferramenta", title: "Radar CI", copy: "Compare fornecedores com critérios mais claros, indo além do simples preço apresentado no orçamento.", Icon: Search, tone: "paper" },
   { label: "Material de apoio", title: "Guia Casamento Sem Golpes", copy: "Reconheça sinais de risco, faça perguntas importantes e contrate fornecedores com mais segurança.", Icon: ShieldCheck, tone: "gold" },
 ];
@@ -150,7 +150,7 @@ export default function Home() {
             <img src={logoUrl} alt="Logo Casamento Inteligente" width={48} height={48} decoding="async" className="h-12 w-12 rounded-full border border-[#c79c53]/40 bg-white object-cover shadow-sm" />
             <span className="hidden leading-none sm:block"><span className="block font-display text-[1.08rem]">Casamento</span><span className="block text-[0.6rem] font-extrabold tracking-[0.18em] text-[#9a7134] uppercase">Inteligente</span></span>
           </a>
-          <nav aria-label="Ação principal" className="flex min-w-0"><a href={CHECKOUT_URL} data-analytics-event="cta_click" data-analytics-label="header" id="header-cta" className="btn-primary min-w-0 max-w-[calc(100vw-5.5rem)] flex-1 whitespace-normal px-2 py-2.5 text-[0.64rem] leading-tight sm:max-w-none sm:flex-none sm:whitespace-nowrap sm:px-5 sm:text-xs [&>svg]:shrink-0">Quero o Método CASAR+ <ArrowRight className="h-3.5 w-3.5" /></a></nav>
+          <nav aria-label="Ação principal" className="flex min-w-0"><a href={CHECKOUT_URL} data-analytics-event="cta_click" data-analytics-label="header" id="header-cta" className="btn-primary min-w-0 max-w-[calc(100vw-5.5rem)] flex-1 whitespace-normal px-2 py-2.5 text-[0.64rem] leading-tight sm:max-w-none sm:flex-none sm:whitespace-nowrap sm:px-5 sm:text-xs [&>svg]:shrink-0" style={{ paddingRight: "7px" }}>Quero o Método CASAR+ <ArrowRight className="h-3.5 w-3.5" /></a></nav>
         </div>
       </header>
 

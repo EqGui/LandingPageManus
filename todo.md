@@ -57,5 +57,16 @@
 
 # Republish final após propagação
 
-- [ ] Registrar que o 404 intermediário foi atraso de propagação, sem alteração necessária no fallback do servidor.
-- [ ] Criar e validar um checkpoint final após a rota pública responder corretamente.
+- [x] Registrar que o 404 intermediário foi atraso de propagação, sem alteração necessária no fallback do servidor.
+- [x] Criar e validar um checkpoint final após a rota pública responder corretamente.
+
+# Confirmação pública pós-checkpoint
+
+- [x] Validar `/metodo-casarmais` após o checkpoint f8df1cc3, confirmando landing page sem 404 e CTA Hotmart.
+
+# Revisão do editor visual — cabeçalho e copy
+
+- [x] Remover estilos inline duplicados do cabeçalho e do CTA, preservando apenas o espaçamento pretendido.
+- [x] Confirmar a copy atualizada de orçamento e revisar comentários de exclusão sem alterar conteúdo não solicitado.
+- [x] Validar TypeScript, build, testes e screenshots desktop/mobile.
+- [ ] Salvar e publicar novo checkpoint revisado.
