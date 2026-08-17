@@ -151,7 +151,7 @@ export default function Home() {
             <img src={logoUrl} alt="Logo Casamento Inteligente" width={48} height={48} decoding="async" className="h-12 w-12 rounded-full border border-[#c79c53]/40 bg-white object-cover shadow-sm" />
             <span className="hidden leading-none sm:block"><span className="block font-display text-[1.08rem]">Casamento</span><span className="block text-[0.6rem] font-extrabold tracking-[0.18em] text-[#9a7134] uppercase">Inteligente</span></span>
           </a>
-          <nav aria-label="Ação principal" className="flex"><a href="#oferta" data-analytics-event="cta_click" data-analytics-label="header" className="btn-primary whitespace-nowrap px-3 py-2.5 text-[0.68rem] sm:px-5 sm:text-xs">Quero o Método CASAR+ <ArrowRight className="h-3.5 w-3.5" /></a></nav>
+          <nav aria-label="Ação principal" className="flex min-w-0"><a href="#oferta" data-analytics-event="cta_click" data-analytics-label="header" id="header-cta" className="btn-primary min-w-0 max-w-[calc(100vw-5.5rem)] flex-1 whitespace-normal px-2 py-2.5 text-[0.64rem] leading-tight sm:max-w-none sm:flex-none sm:whitespace-nowrap sm:px-5 sm:text-xs [&>svg]:shrink-0">Quero o Método CASAR+ <ArrowRight className="h-3.5 w-3.5" /></a></nav>
         </div>
       </header>
 
@@ -164,7 +164,7 @@ export default function Home() {
             <span className="casar-seal mt-4"><img src={botanicalUrl} alt="" className="h-4 w-4 object-contain" /> Curadoria CASAR+</span>
             <h1 id="titulo-principal" className="mt-6 max-w-[760px] font-display text-[3.1rem] leading-[.92] tracking-[-.045em] text-[#263020] sm:text-6xl lg:text-[4.55rem]">Seu casamento pode custar menos sem parecer um casamento barato.</h1>
             <p className="mt-7 max-w-xl text-[1rem] leading-7 text-[#536048] sm:text-[1.08rem]">Para casais que querem controlar o orçamento, comparar fornecedores e negociar melhor. Aprenda a economizar no casamento sem abrir mão da qualidade e do que importa para vocês.</p>
-            <p className="mt-5 flex items-center gap-2 text-sm font-bold text-[#45543b]"><span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#e7d3a6] text-[#816133]"><Sparkles className="h-3.5 w-3.5" /></span> Conheça o <strong>Método CASAR+</strong>, um processo para decidir com estratégia.</p>
+            <p className="mt-5 flex items-start gap-2 text-sm font-bold leading-6 text-[#45543b]"><span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#e7d3a6] text-[#816133]"><Sparkles className="h-3.5 w-3.5" /></span><span>Conheça o <strong>Método CASAR+</strong>, um processo para decidir com estratégia.</span></p>
             <div className="mt-8 flex">
               <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="hero" className="btn-primary">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></a>
             </div>
@@ -282,7 +282,7 @@ export default function Home() {
       </main>
       <footer className="bg-[#20271b] py-10 text-[#d9ddcc]"><div className="container flex flex-col gap-7 sm:flex-row sm:items-center sm:justify-between"><div className="flex items-center gap-3"><img src={logoUrl} alt="Casamento Inteligente" width={48} height={48} loading="lazy" decoding="async" className="h-12 w-12 rounded-full object-cover" /><div><p className="font-display text-lg text-[#fff9e8]">Casamento Inteligente</p><p className="text-[0.63rem] font-extrabold tracking-[.18em] text-[#d1ae67] uppercase">Método CASAR+</p></div></div><div className="max-w-md text-xs leading-5 text-[#bfc7b0] sm:text-right">Planejamento de casamento, orçamento, fornecedores e negociação com mais clareza para o casal.</div></div></footer>
 
-      <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="mobile_sticky" className="fixed bottom-3 left-3 right-3 z-50 flex items-center justify-center gap-2 rounded-full bg-[#b8893f] px-5 py-4 text-sm font-extrabold text-[#283121] shadow-[0_16px_35px_rgba(0,0,0,.22)] md:hidden">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></a>
+      <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="mobile_sticky" className="sticky bottom-3 z-50 mx-3 mt-3 flex items-center justify-center gap-2 rounded-full bg-[#b8893f] px-5 py-4 text-sm font-extrabold text-[#283121] shadow-[0_16px_35px_rgba(0,0,0,.22)] md:hidden">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></a>
     </div>
   );
 }
