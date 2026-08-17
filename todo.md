@@ -1,5 +1,5 @@
-- [ ] Auditar hero, dor, Método CASAR+, economia, comparação, calculadora, criadores, oferta, garantia, objeções e FAQ.
-- [ ] Preservar estrutura e identidade visual; aplicar apenas melhorias pontuais de clareza, transformação e valor percebido.
-- [ ] Adicionar exemplo ilustrativo de economia, critérios de comparação e microcopy de condição de lançamento e garantia sem promessas enganosas.
-- [ ] Diferenciar CTA principal de compra e CTA secundário da calculadora, revisando respostas de objeções e FAQ.
-- [ ] Validar desktop e celular, salvar checkpoint e entregar a revisão de CRO.
+- [ ] Conferir os textos atuais de objeções, FAQ, ferramentas, oferta, lançamento, calculadora e garantia.
+- [ ] Substituir somente as perguntas e respostas de objeções e FAQ pelos textos aprovados, preservando os accordions.
+- [ ] Atualizar descrições de ferramentas e microcopy de oferta, lançamento, calculadora e garantia sem alterar preço ou layout.
+- [ ] Validar todos os accordions, CTAs, calculadora, HTML pré-renderizado, desktop e celular.
+- [ ] Salvar checkpoint e entregar a última atualização cirúrgica.
