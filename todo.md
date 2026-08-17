@@ -1,5 +1,4 @@
-- [x] Localizar as microcopies atuais de preço e parcelamento.
-- [x] Atualizar para R$ 497,00 em até 10x de R$ 49,70 sem juros.
-- [x] Atualizar banner, oferta e FAQ sem alterar o checkout ou o design.
-- [x] Validar preço, build, checkout, desktop e celular.
+- [x] Criar uma nova imagem editorial dos noivos durante a festa de casamento, sem texto incorporado.
+- [x] Substituir somente a primeira imagem do hero e remover a frase sobreposta.
+- [x] Validar enquadramento, carregamento, desktop e celular.
 - [x] Salvar checkpoint e publicar a atualização.

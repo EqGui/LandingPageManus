@@ -30,7 +30,7 @@ import {
 } from "lucide-react";
 
 const logoUrl = "/manus-storage/logo-casamento-inteligente_9ffa292e.png";
-const heroUrl = "/manus-storage/casar-hero-editorial_05185287.jpg";
+const heroUrl = "/manus-storage/casar-hero-wedding-party_a802e434.jpg";
 const planningUrl = "/manus-storage/casar-planning-table_fc5f54e7.jpg";
 const receptionUrl = "/manus-storage/casar-reception-detail_d3e56c34.jpg";
 const botanicalUrl = "/manus-storage/casar-botanical-symbol_8637a981.png";
@@ -181,7 +181,6 @@ export default function Home() {
             <div className="absolute -bottom-2 -left-6 h-28 w-28 rounded-full border border-[#687858]/30" />
             <div className="relative overflow-hidden rounded-t-[10rem] rounded-br-[1.8rem] rounded-bl-[1.8rem] border border-[#d8c79f]/80 bg-[#e9e4d7] p-2.5 shadow-[0_30px_65px_rgba(47,53,39,.16)]">
               <img src={heroUrl} alt="Casal avaliando detalhes do casamento com tranquilidade" width={1120} height={1010} fetchPriority="high" loading="eager" decoding="async" className="h-[415px] w-full rounded-t-[9.3rem] rounded-br-[1.3rem] rounded-bl-[1.3rem] object-cover sm:h-[505px]" />
-              <div className="absolute inset-x-2.5 bottom-2.5 rounded-br-[1.25rem] rounded-bl-[1.25rem] bg-gradient-to-t from-[#1d261a]/78 via-[#1d261a]/8 to-transparent p-6 pt-28 text-[#fffdf5]"><p className="font-display text-xl italic">“O problema não é gastar. É gastar sem estratégia.”</p></div>
             </div>
             <div className="absolute -bottom-3 -left-2 w-[205px] rounded-[1rem] border border-[#d0bd91]/70 bg-[#fffdf7] p-4 shadow-[0_16px_35px_rgba(48,54,38,.12)] sm:-left-10">
               <p className="text-[0.6rem] font-extrabold tracking-[.15em] text-[#9a7237] uppercase">O que muda</p><p className="mt-2 font-display text-lg leading-5 text-[#35432d]">Decisão baseada em critérios, não em pressão.</p>
