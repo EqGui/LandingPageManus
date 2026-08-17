@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 
 describe("landing page — ajustes da oferta e responsividade", () => {
   const source = readFileSync(resolve(process.cwd(), "client/src/pages/Home.tsx"), "utf8");
+  const appSource = readFileSync(resolve(process.cwd(), "client/src/App.tsx"), "utf8");
 
   it("mantém a copy e os materiais solicitados", () => {
     expect(source).toContain("Casamento Inteligente - Método CASAR+: Aprenda a negociar com fornecedores");
@@ -29,6 +30,14 @@ describe("landing page — ajustes da oferta e responsividade", () => {
     expect(comparison).not.toContain("min-w-[620px]");
     expect(comparison).toContain("sm:grid-cols-[1.25fr_.88fr_.88fr]");
     expect(comparison).toContain("A pergunta não é");
+  });
+
+  it("mantém a rota pública do método", () => {
+    expect(appSource).toContain('path={"/metodo-casarmais"}');
+    expect(appSource).toContain('component={Home}');
+    expect(source).toContain('https://pay.hotmart.com/U107190056A');
+    expect(source).toContain('href="#inicio"');
+    expect(source).toContain('href="#conteudo-principal"');
   });
 
   it("remove os elementos marcados para exclusão pelo editor visual", () => {

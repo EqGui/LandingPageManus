@@ -33,7 +33,19 @@
 
 # Confirmação pública do checkpoint final
 
-- [ ] Resolver a divergência entre o código/artefato validado e o HTML ainda servido no domínio público.
-- [ ] Forçar nova sincronização da publicação sem alterar o design da página.
-- [ ] Confirmar no domínio público a copy “Sem juros · R$ 497,00 à vista” e a seção de materiais limpa.
-- [ ] Salvar e entregar o checkpoint final confirmado.
+- [x] Resolver a divergência entre o código/artefato validado e o HTML ainda servido no domínio público.
+- [x] Forçar nova sincronização da publicação sem alterar o design da página.
+- [x] Confirmar no domínio público a copy “Sem juros · R$ 497,00 à vista” e a seção de materiais limpa.
+- [x] Salvar e entregar o checkpoint final confirmado.
+
+# Domínio personalizado e rota do Método CASAR+
+
+- [x] Adicionar a rota pública `/metodo-casarmais` apontando para a landing page.
+- [x] Garantir que assets, links internos e checkout funcionem corretamente nessa rota.
+- [x] Validar a rota em preview e na publicação.
+- [ ] Orientar e concluir a vinculação de `casamento-inteligente.com` na área de Domínios.
+
+# Validação específica da rota publicada
+
+- [x] Testar CTA de compra e âncoras internas em `/metodo-casarmais`.
+- [ ] Publicar e validar `/metodo-casarmais` no domínio público do projeto.
