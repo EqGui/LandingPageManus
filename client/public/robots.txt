@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://casamentoinf-hupxqysm.manus.space/sitemap.xml

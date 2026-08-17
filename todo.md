@@ -1,4 +1,5 @@
-- [ ] Auditar o hero, a metodologia, as ferramentas, a calculadora, a comparação, os criadores, a oferta, as objeções e o FAQ.
-- [ ] Documentar quais elementos existentes serão preservados e quais ajustes apresentam maior impacto potencial de conversão.
-- [ ] Aplicar apenas melhorias seletivas de clareza, consistência do CTA, percepção de valor e prioridade mobile.
-- [ ] Validar a página refinada em desktop e celular, salvar checkpoint e entregar o resultado auditado.
+- [ ] Auditar a arquitetura React/Vite atual, o HTML entregue e os pontos que dependem de JavaScript.
+- [ ] Implementar a estratégia de pré-renderização estática mais simples compatível com o projeto.
+- [ ] Adicionar metadados sociais, dados estruturados compatíveis, semântica e otimizações de imagens sem alterar a copy.
+- [ ] Testar HTML inicial, compilação, páginas com e sem JavaScript, CTAs, calculadora, desktop e celular.
+- [ ] Salvar checkpoint e entregar a versão tecnicamente otimizada.
