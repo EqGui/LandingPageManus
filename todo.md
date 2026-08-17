@@ -1,5 +1,5 @@
-- [x] Mapear todos os CTAs de compra atuais e os pontos de preço.
-- [x] Atualizar a oferta para 12x de R$ 51,40 ou R$ 497,00 à vista.
-- [x] Conectar todos os CTAs de compra ao checkout oficial da Hotmart.
-- [x] Validar cliques, URL, preço, build, desktop e celular.
+- [x] Localizar todas as menções atuais a valor à vista e ao preço anterior.
+- [x] Atualizar a oferta para exibir somente 12x de R$ 49,90.
+- [x] Remover o valor à vista do banner, oferta, FAQ e microcopies relacionadas.
+- [x] Validar preço, checkout, build, desktop e celular.
 - [x] Salvar checkpoint e publicar a atualização.

@@ -95,7 +95,7 @@ const faqs = [
   ["Como recebo o acesso?", "Após a confirmação da compra, você receberá as instruções para acessar o Método CASAR+ e os materiais incluídos na oferta. O acesso é digital."],
   ["Quanto tempo tenho de acesso?", "A condição de acesso será informada de forma clara no checkout oficial antes do pagamento."],
   ["Existe garantia?", "Sim. A compra conta com garantia de 7 dias. Dentro desse período, você pode conhecer o conteúdo e decidir se o método faz sentido para você, conforme as condições da garantia."],
-  ["Como funciona o pagamento?", "Você pode escolher 12x de R$ 51,40 ou R$ 497,00 à vista. O pagamento é concluído com segurança no checkout oficial da Hotmart."],
+  ["Como funciona o pagamento?", "Você pode escolher 12x de R$ 49,90. O pagamento é concluído com segurança no checkout oficial da Hotmart."],
 ];
 
 function emitConversionEvent(event: string, label: string) {
@@ -142,7 +142,7 @@ export default function Home() {
       {/* Pontos de integração: evento customizado casarplus:conversion para page_view, cta_click, calculator_open e checkout_start. O evento purchase deve ser enviado pelo checkout integrado. */}
       <a href="#conteudo-principal" className="sr-only absolute left-4 top-4 z-[60] rounded bg-[#283121] px-4 py-3 text-sm font-bold text-[#fff9eb] focus:not-sr-only">Pular para o conteúdo principal</a>
       <div className="bg-[#283121] px-4 py-2.5 text-center text-[0.65rem] font-extrabold tracking-[0.12em] text-[#f7e7bd] uppercase sm:text-xs">
-        Método CASAR+ · 12x de R$ 51,40 ou <span className="text-[#e4bb6b]">R$ 497 à vista</span>
+        Método CASAR+ · <span className="text-[#e4bb6b]">12x de R$ 49,90</span>
       </div>
 
       <header className="sticky top-0 z-50 border-b border-[#dfd5c0]/90 bg-[#f8f5ed]/95 backdrop-blur-xl">
@@ -261,9 +261,8 @@ export default function Home() {
             <div className="relative z-10 flex items-center justify-between border-b border-[#e7dcc4] bg-[#f6eedc] px-6 py-4"><span className="flex items-center gap-2 text-[0.65rem] font-extrabold tracking-[.16em] text-[#796035] uppercase"><img src={logoUrl} alt="" className="h-6 w-6 rounded-full object-cover" /> Método CASAR+ completo</span><HeartHandshake className="h-5 w-5 text-[#a77a34]" /></div>
             <div className="relative z-10 p-7 sm:p-9">
               <p className="font-display text-lg italic text-[#586048]">Uma escolha para cuidar do casamento e do futuro que vem depois dele.</p>
-              <div className="mt-6 flex flex-wrap items-end gap-x-4 gap-y-2"><span className="text-sm font-bold text-[#808274]">De <span className="line-through">R$ 997,00</span></span><span className="rounded-full bg-[#e5d0a3] px-3 py-1 text-[0.61rem] font-extrabold tracking-wide text-[#675027] uppercase">Por R$ 497,00 à vista</span></div>
-              <div className="mt-2 flex items-end gap-2 text-[#2c3625]"><span className="mb-2 text-xl font-bold">R$</span><span className="font-display text-7xl leading-none tracking-[-.05em]">497</span><span className="mb-2 text-xl font-bold">,00</span></div>
-               <p className="text-sm font-bold leading-6 text-[#4d5a43]">ou 12x de R$ 51,40 no cartão</p>
+              <div className="mt-6 flex flex-wrap items-end gap-x-4 gap-y-2"><span className="text-sm font-bold text-[#808274]">De <span className="line-through">R$ 997,00</span></span><span className="rounded-full bg-[#e5d0a3] px-3 py-1 text-[0.61rem] font-extrabold tracking-wide text-[#675027] uppercase">12x de R$ 49,90</span></div>
+              <div className="mt-2 flex items-end gap-2 text-[#2c3625]"><span className="mb-2 text-xl font-bold">12x de R$</span><span className="font-display text-7xl leading-none tracking-[-.05em]">49</span><span className="mb-2 text-xl font-bold">,90</span></div>
                <p className="mt-2 text-sm leading-6 text-[#66705d]">Pagamento seguro pelo checkout oficial da Hotmart.</p>
               <div className="gold-rule my-7" />
               <p className="font-display text-2xl leading-7 text-[#3c4b34]">Você não está comprando apenas aulas.</p>
