@@ -1,5 +1,5 @@
-- [ ] Fazer requisições HTTP diretas à URL pública com user-agent de navegador e de crawler.
-- [ ] Verificar title, meta description, H1, headings, textos, CTAs, oferta, FAQ, links e dados estruturados no HTML recebido.
-- [ ] Comparar a resposta pública com a estratégia de pré-renderização do build e corrigir somente se houver divergência.
-- [ ] Revalidar a resposta pública, SEO técnico e aparência sem alterar design, copy, preços ou funcionalidades.
-- [ ] Salvar checkpoint e entregar um diagnóstico técnico conclusivo.
+- [ ] Auditar hero, dor, Método CASAR+, economia, comparação, calculadora, criadores, oferta, garantia, objeções e FAQ.
+- [ ] Preservar estrutura e identidade visual; aplicar apenas melhorias pontuais de clareza, transformação e valor percebido.
+- [ ] Adicionar exemplo ilustrativo de economia, critérios de comparação e microcopy de condição de lançamento e garantia sem promessas enganosas.
+- [ ] Diferenciar CTA principal de compra e CTA secundário da calculadora, revisando respostas de objeções e FAQ.
+- [ ] Validar desktop e celular, salvar checkpoint e entregar a revisão de CRO.

@@ -72,6 +72,7 @@ O logo fornecido é o elemento de marca principal: um monograma circular com ver
 - **Regra de prova social:** enquanto não houver relatos reais autorizados, a página não exibirá cartões que imitem depoimentos. A seção assume uma nota editorial de transparência e será substituída apenas por histórias verificadas.
 - **Regra de ritmo editorial:** cada grande bloco mantém pelo menos um recurso de composição — numerais amplos, selo de monograma, nota de margem, arco botânico ou relação assimétrica entre conteúdo e imagem.
 - **Regra de motivo de assinatura:** cartões arredondados são secundários. A identidade prioritária combina papel marfim, campos tipográficos em verde oliva, arcos botânicos finos e Dourado Casar+ `#B88A3B` reservado a valor, numerais, selos e decisões-chave.
+- **Regra de CRO cirúrgico:** na otimização de conversão, os selos, linhas botânicas e notas editoriais existentes destacam somente método, economia, comparação, garantia e oferta; a página não recebe uma nova identidade visual nem uma estrutura adicional.
 
 ## Validação visual
 
