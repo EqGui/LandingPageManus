@@ -48,4 +48,14 @@
 # Validação específica da rota publicada
 
 - [x] Testar CTA de compra e âncoras internas em `/metodo-casarmais`.
-- [ ] Publicar e validar `/metodo-casarmais` no domínio público do projeto.
+- [x] Publicar e validar `/metodo-casarmais` no domínio público do projeto.
+
+# Correção do 404 em produção
+
+- [x] Corrigir o fallback de publicação para servir a landing page em `/metodo-casarmais`.
+- [x] Publicar novamente e validar a rota no domínio do projeto.
+
+# Republish final após propagação
+
+- [ ] Registrar que o 404 intermediário foi atraso de propagação, sem alteração necessária no fallback do servidor.
+- [ ] Criar e validar um checkpoint final após a rota pública responder corretamente.
