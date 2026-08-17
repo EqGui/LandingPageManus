@@ -83,6 +83,8 @@
   .editorial-note { @apply relative overflow-hidden rounded-[1.75rem] border border-[#cdbb91]/65 bg-[#f7f0df] shadow-[0_18px_45px_rgba(55,59,41,.08)]; }
   .editorial-note::before { content: ""; position: absolute; inset: .6rem; border: 1px solid rgba(184,138,59,.32); border-radius: 1.25rem; pointer-events: none; }
   .offer-livret { background-image: linear-gradient(115deg, rgba(255,255,255,.64), rgba(237,224,192,.35)), radial-gradient(circle at 95% 5%, rgba(184,138,59,.16), transparent 12rem); }
+  .casar-seal { @apply inline-flex items-center gap-2 rounded-full border border-[#b88a3b]/45 bg-[#fffaf0] px-3 py-1.5 text-[0.61rem] font-extrabold tracking-[.15em] text-[#8d6933] uppercase shadow-[0_8px_20px_rgba(66,68,45,.08)]; }
+  .editorial-tab { @apply border-l-2 border-[#b88a3b] pl-4 font-display text-base italic leading-5 text-[#6c5b3c]; }
 }
 
 @media (min-width: 640px) { .container { padding-left: 1.75rem; padding-right: 1.75rem; } }

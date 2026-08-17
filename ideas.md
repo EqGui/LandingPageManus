@@ -76,3 +76,15 @@ O logo fornecido é o elemento de marca principal: um monograma circular com ver
 ## Validação visual
 
 A navegação, a leitura do herói, a hierarquia de oferta e o FAQ foram revisados em viewport móvel de 375 px. A página mantém um fluxo vertical legível, CTAs com área de toque adequada, imagens sem quebra visível e contraste preservado entre os campos verde oliva, marfim e dourado.
+
+## Reorientação de conversão
+
+A versão revisada adota uma jornada explícita de decisão: dor, problema, mecanismo CASAR+, demonstração prática, ferramentas, criadores, valor, redução de risco e oferta. A direção editorial permanece, mas a composição reduz navegação e ornamentos sem função para ampliar clareza, escaneabilidade e ação principal. A página não usa escassez artificial, números de alunos, depoimentos ou credenciais não comprovadas.
+
+### Decisões de estilo da revisão de conversão
+
+Cada bloco principal recebe uma assinatura perceptível do sistema CASAR+: monograma, arco botânico, selo dourado, numeral editorial ou nota de margem. Os grids permanecem apenas onde facilitam comparação; neles, uma peça dominante, imagem ou tipografia deslocada quebra a simetria. O monograma se torna uma marca de curadoria que sinaliza decisão, material, garantia e oferta — não apenas um logo no topo.
+
+### Validação da página otimizada
+
+A jornada foi verificada em desktop e em viewport de 375 px. Em celular, o CTA fixo permanece visível sem encobrir a leitura principal; a sequência de seções mantém contrastes, botões amplos e blocos de conteúdo escaneáveis. A compilação e os registros recentes do navegador não indicaram erros de execução.
