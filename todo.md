@@ -29,4 +29,11 @@
 - [x] Consolidar dimensões responsivas dos cards e da imagem sem fixar larguras inadequadas.
 - [x] Corrigir a quebra de linha acidental na copy do preço e manter a condição de pagamento solicitada.
 - [x] Validar build, testes e screenshots desktop/mobile.
-- [ ] Salvar e publicar novo checkpoint revisado.
+- [x] Salvar e publicar novo checkpoint revisado.
+
+# Confirmação pública do checkpoint final
+
+- [ ] Resolver a divergência entre o código/artefato validado e o HTML ainda servido no domínio público.
+- [ ] Forçar nova sincronização da publicação sem alterar o design da página.
+- [ ] Confirmar no domínio público a copy “Sem juros · R$ 497,00 à vista” e a seção de materiais limpa.
+- [ ] Salvar e entregar o checkpoint final confirmado.

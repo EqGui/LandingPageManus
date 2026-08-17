@@ -260,6 +260,7 @@ export default function Home() {
             <div className="relative z-10 p-7 sm:p-9">
               <p className="font-display text-lg italic text-[#586048]">Uma escolha para cuidar do casamento e do futuro que vem depois dele.</p>
               <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2"><span className="text-sm font-bold text-[#808274]">De <span className="line-through">R$ 997,00</span></span><span className="rounded-full bg-[#e5d0a3] px-3 py-1 text-[0.61rem] font-extrabold tracking-wide text-[#675027] uppercase">Condição especial</span></div>
+              {/* Oferta final: parcelamento em destaque e condição à vista em hierarquia secundária. */}
               <div className="mt-5 flex items-end gap-2 text-[#2c3625]"><span className="mb-3 text-2xl font-bold">10x</span><span className="font-display text-7xl leading-none tracking-[-.05em]">49</span><span className="mb-3 text-2xl font-bold">,70</span></div>
               <p className="text-sm font-bold leading-6 text-[#4d5a43]">Sem juros · R$ 497,00 à vista</p>
               <div className="gold-rule my-7" />
