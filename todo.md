@@ -1,5 +1,5 @@
-- [ ] Auditar a arquitetura React/Vite atual, o HTML entregue e os pontos que dependem de JavaScript.
-- [ ] Implementar a estratégia de pré-renderização estática mais simples compatível com o projeto.
-- [ ] Adicionar metadados sociais, dados estruturados compatíveis, semântica e otimizações de imagens sem alterar a copy.
-- [ ] Testar HTML inicial, compilação, páginas com e sem JavaScript, CTAs, calculadora, desktop e celular.
-- [ ] Salvar checkpoint e entregar a versão tecnicamente otimizada.
+- [ ] Fazer requisições HTTP diretas à URL pública com user-agent de navegador e de crawler.
+- [ ] Verificar title, meta description, H1, headings, textos, CTAs, oferta, FAQ, links e dados estruturados no HTML recebido.
+- [ ] Comparar a resposta pública com a estratégia de pré-renderização do build e corrigir somente se houver divergência.
+- [ ] Revalidar a resposta pública, SEO técnico e aparência sem alterar design, copy, preços ou funcionalidades.
+- [ ] Salvar checkpoint e entregar um diagnóstico técnico conclusivo.
