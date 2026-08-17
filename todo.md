@@ -1,6 +1,9 @@
-- [x] Remover o último botão “Quero o Método CASAR+”.
-- [x] Centralizar a frase “Clareza para decidir também é uma forma de cuidado.” acima do botão principal.
-- [x] Corrigir o alinhamento das linhas da tabela de critérios dos fornecedores A e B.
-- [x] Inserir a foto real de Guilherme e Mariana na seção dos autores.
-- [x] Validar layout, imagem, tabela, CTAs e responsividade.
-- [x] Salvar checkpoint e publicar a atualização.
+- [x] Atualizar a faixa superior para “Casamento Inteligente - Método CASAR+: Aprenda a negociar com fornecedores”.
+- [x] Trocar o bônus “Guia de negociação” por “Guia Casamento Sem Golpes” e adaptar o subtítulo.
+- [x] Remover os bônus de checklists e calculadora.
+- [x] Iniciar o orçamento total estimado da calculadora em R$ 80.000,00.
+- [x] Reorganizar a tabela de fornecedores A/B para caber sem arrastar no mobile e posicionar a conclusão centralizada abaixo.
+- [x] Substituir a foto dos criadores pelo novo arquivo enviado.
+- [x] Retirar o texto “Objeções comuns” e destacar 10x de R$ 49,70, reduzindo visualmente R$ 497,00.
+- [x] Validar conteúdo, imagem, CTAs, preço e responsividade.
+- [ ] Salvar checkpoint e publicar a atualização.
