@@ -142,7 +142,7 @@ export default function Home() {
       {/* Pontos de integração: evento customizado casarplus:conversion para page_view, cta_click, calculator_open e checkout_start. O evento purchase deve ser enviado pelo checkout integrado. */}
       <a href="#conteudo-principal" className="sr-only absolute left-4 top-4 z-[60] rounded bg-[#283121] px-4 py-3 text-sm font-bold text-[#fff9eb] focus:not-sr-only">Pular para o conteúdo principal</a>
       <div className="bg-[#283121] px-4 py-2.5 text-center text-[0.65rem] font-extrabold tracking-[0.12em] text-[#f7e7bd] uppercase sm:text-xs">
-        Método CASAR+ · <span className="text-[#e4bb6b]">R$ 497,00 em até 10x de R$ 49,70 sem juros</span>
+        Método CASAR+ — aprenda a negociar com fornecedores
       </div>
 
       <header className="sticky top-0 z-50 border-b border-[#dfd5c0]/90 bg-[#f8f5ed]/95 backdrop-blur-xl">
@@ -161,7 +161,7 @@ export default function Home() {
         <div className="container grid min-h-[630px] items-center gap-10 py-12 lg:grid-cols-[1.05fr_.95fr] lg:py-16">
           <div className="relative z-10 py-3 lg:py-12">
             <p className="section-kicker">Método de decisão, economia e negociação</p>
-            <span className="casar-seal mt-4"><img src={botanicalUrl} alt="" className="h-4 w-4 object-contain" /> Curadoria CASAR+</span>
+            <span className="casar-seal mt-4"><img src={botanicalUrl} alt="" className="h-4 w-4 object-contain" /> Método CASAR+</span>
             <h1 id="titulo-principal" className="mt-6 max-w-[760px] font-display text-[3.1rem] leading-[.92] tracking-[-.045em] text-[#263020] sm:text-6xl lg:text-[4.55rem]">Seu casamento pode custar menos sem parecer um casamento barato.</h1>
             <p className="mt-7 max-w-xl text-[1rem] leading-7 text-[#536048] sm:text-[1.08rem]">Para casais que querem controlar o orçamento, comparar fornecedores e negociar melhor. Aprenda a economizar no casamento sem abrir mão da qualidade e do que importa para vocês.</p>
             <p className="mt-5 flex items-start gap-2 text-sm font-bold leading-6 text-[#45543b]"><span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#e7d3a6] text-[#816133]"><Sparkles className="h-3.5 w-3.5" /></span><span>Conheça o <strong>Método CASAR+</strong>, um processo para decidir com estratégia.</span></p>

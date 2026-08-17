@@ -1,4 +1,4 @@
-- [x] Criar uma nova imagem editorial dos noivos durante a festa de casamento, sem texto incorporado.
-- [x] Substituir somente a primeira imagem do hero e remover a frase sobreposta.
-- [x] Validar enquadramento, carregamento, desktop e celular.
+- [x] Atualizar a faixa superior para “Método CASAR+ — aprenda a negociar com fornecedores”, sem preço.
+- [x] Trocar “Curadoria CASAR+” por “Método CASAR+”.
+- [x] Validar a oferta principal, build, desktop e celular.
 - [x] Salvar checkpoint e publicar a atualização.
