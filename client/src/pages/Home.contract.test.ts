@@ -30,4 +30,9 @@ describe("landing page — ajustes da oferta e responsividade", () => {
     expect(comparison).toContain("sm:grid-cols-[1.25fr_.88fr_.88fr]");
     expect(comparison).toContain("A pergunta não é");
   });
+
+  it("remove os elementos marcados para exclusão pelo editor visual", () => {
+    expect(source).not.toContain('data-analytics-label="mobile_sticky"');
+    expect(source).not.toContain("Pagamento seguro pelo checkout oficial da Hotmart.");
+  });
 });

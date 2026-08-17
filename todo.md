@@ -7,3 +7,18 @@
 - [x] Retirar o texto “Objeções comuns” e destacar 10x de R$ 49,70, reduzindo visualmente R$ 497,00.
 - [x] Validar conteúdo, imagem, CTAs, preço e responsividade.
 - [x] Salvar checkpoint e publicar a atualização.
+
+# Revisão do editor visual — nova rodada
+
+- [x] Revisar estilos inline de espaçamento adicionados pelo editor visual e manter somente os ajustes intencionais nos contêineres de seção.
+- [x] Corrigir o texto “Pagamento seguropelo checkout...” para preservar o espaço e revisar comentários de exclusão.
+- [x] Verificar JSX duplicado ou inválido e preservar layout, preço, tabela e responsividade.
+- [x] Rodar build, testes e screenshots desktop/mobile.
+- [ ] Salvar e publicar novo checkpoint revisado.
+
+# Exclusões indicadas pelo editor visual
+
+- [x] Remover o CTA móvel final marcado como “Excluir” e confirmar que os CTAs principais continuam suficientes no mobile.
+- [x] Remover o parágrafo de pagamento da oferta marcado como “excluir” e revisar a hierarquia visual do card de preço.
+- [x] Revalidar build, testes e screenshots após as exclusões.
+- [ ] Salvar o novo checkpoint revisado após as exclusões.
