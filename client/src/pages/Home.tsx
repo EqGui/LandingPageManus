@@ -261,14 +261,14 @@ export default function Home() {
               <p className="font-display text-lg italic text-[#586048]">Uma escolha para cuidar do casamento e do futuro que vem depois dele.</p>
               <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2"><span className="text-sm font-bold text-[#808274]">De <span className="line-through">R$ 997,00</span></span><span className="rounded-full bg-[#e5d0a3] px-3 py-1 text-[0.61rem] font-extrabold tracking-wide text-[#675027] uppercase">Condição especial</span></div>
               <div className="mt-5 flex items-end gap-2 text-[#2c3625]"><span className="mb-3 text-2xl font-bold">10x</span><span className="font-display text-7xl leading-none tracking-[-.05em]">49</span><span className="mb-3 text-2xl font-bold">,70</span></div>
-              <p className="text-sm font-bold leading-6 text-[#4d5a43]">Sem juros · total de R$ 497,00</p>
+              <p className="text-sm font-bold leading-6 text-[#4d5a43]">Sem juros · R$ 497,00 à vista</p>
               <div className="gold-rule my-7" />
               <p className="font-display text-2xl leading-7 text-[#3c4b34]">Você não está comprando apenas aulas.</p>
               <p className="mt-2 text-sm leading-6 text-[#5d6855]">Está adquirindo um método e ferramentas para tomar decisões melhores em um casamento que pode envolver dezenas de milhares de reais.</p>
               <ul className="mt-6 space-y-4 text-sm text-[#4d5941]">{offerIncludes.map(([title, copy]) => <li key={title} className="flex items-start gap-3"><Check className="mt-0.5 h-4 w-4 shrink-0 text-[#b48842]" /><span><strong className="block font-bold">{title}</strong><span className="mt-0.5 block leading-5 text-[#65705b]">{copy}</span></span></li>)}</ul>
               <div className="mt-7 flex gap-3 border-y border-[#e3d8c0] bg-[#faf3e2] p-4"><span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[#cba969] text-[#9b7132]"><ShieldCheck className="h-4 w-4" /></span><div><p className="text-[0.62rem] font-extrabold tracking-[.14em] text-[#957139] uppercase">7 dias de garantia</p><p className="mt-1 text-sm leading-5 text-[#5d6855]">Conheça o Método CASAR+ por dentro e veja se ele faz sentido para o seu casamento. Se decidir que não é para você, poderá solicitar o cancelamento dentro do prazo da garantia.</p></div></div>
               <button onClick={() => openCheckout("offer_card")} data-analytics-event="checkout_start" className="btn-primary mt-8 w-full py-4 text-sm">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></button>
-              <p className="mt-4 text-center text-[0.66rem] font-bold text-[#858473]">Pagamento seguro · Garantia de 7 dias · Acesso conforme checkout</p>
+              <p className="mt-4 text-center text-[0.66rem] font-bold text-[#858473]">Pagamento seguro · Garantia de 7 dias</p>
             </div>
           </article>
       </div></section>

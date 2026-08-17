@@ -18,7 +18,7 @@ describe("landing page — ajustes da oferta e responsividade", () => {
     expect(source).toContain("10x");
     expect(source).toContain("49");
     expect(source).toContain(",70");
-    expect(source).toContain("total de R$ 497,00");
+    expect(source).toContain("Sem juros · R$ 497,00 à vista");
   });
 
   it("não usa largura mínima ou overflow horizontal na comparação", () => {

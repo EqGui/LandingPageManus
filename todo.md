@@ -14,11 +14,19 @@
 - [x] Corrigir o texto “Pagamento seguropelo checkout...” para preservar o espaço e revisar comentários de exclusão.
 - [x] Verificar JSX duplicado ou inválido e preservar layout, preço, tabela e responsividade.
 - [x] Rodar build, testes e screenshots desktop/mobile.
-- [ ] Salvar e publicar novo checkpoint revisado.
+- [x] Salvar e publicar novo checkpoint revisado.
 
 # Exclusões indicadas pelo editor visual
 
 - [x] Remover o CTA móvel final marcado como “Excluir” e confirmar que os CTAs principais continuam suficientes no mobile.
 - [x] Remover o parágrafo de pagamento da oferta marcado como “excluir” e revisar a hierarquia visual do card de preço.
 - [x] Revalidar build, testes e screenshots após as exclusões.
-- [ ] Salvar o novo checkpoint revisado após as exclusões.
+- [x] Salvar o novo checkpoint revisado após as exclusões.
+
+# Revisão do editor visual — materiais e oferta
+
+- [x] Limpar os estilos inline duplicados e conflitantes adicionados à seção de materiais.
+- [x] Consolidar dimensões responsivas dos cards e da imagem sem fixar larguras inadequadas.
+- [x] Corrigir a quebra de linha acidental na copy do preço e manter a condição de pagamento solicitada.
+- [x] Validar build, testes e screenshots desktop/mobile.
+- [ ] Salvar e publicar novo checkpoint revisado.
