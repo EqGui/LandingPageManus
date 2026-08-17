@@ -60,6 +60,7 @@ const materials = [
 const objections = [
   ["“Mas eu já contratei alguns fornecedores.”", "Ainda há decisões futuras, pagamentos, ajustes de escopo e contratos que podem ser vistos com mais critério."],
   ["“Meu casamento não tem um orçamento alto.”", "A estratégia não depende de um orçamento mínimo. Ela ajuda a usar melhor aquilo que faz sentido para vocês."],
+  ["“Meu casamento é pequeno ou grande. Isso serve para mim?”", "Sim. O método não define o tamanho da celebração; ele ajuda o casal a avaliar orçamento, fornecedores e prioridades de acordo com a realidade que escolheu."],
   ["“Eu não sei negociar.”", "O método parte justamente desse ponto: preparação, perguntas e critérios antes de qualquer conversa."],
   ["“Eu já tenho assessoria.”", "Uma assessoria pode ser complementar. O método ajuda o casal a entender escolhas e participar delas com mais clareza."],
   ["“Meu casamento é daqui a poucos meses.”", "Quanto mais perto da data, mais importante é saber onde concentrar atenção e reduzir decisões feitas sob pressão."],
@@ -67,6 +68,7 @@ const objections = [
 
 const faqs = [
   ["Para quem é o Método CASAR+?", "Para casais que estão planejando um casamento e querem organizar orçamento, comparar fornecedores e negociar com mais segurança."],
+  ["Como funciona o Método CASAR+?", "O método organiza o planejamento em cinco frentes: controle do orçamento, análise de fornecedores, comparação, negociação e redução de desperdícios."],
   ["Funciona para qualquer orçamento?", "O método se adapta à realidade de cada casal. O resultado financeiro varia conforme orçamento, região, fornecedores, momento da contratação e decisões tomadas."],
   ["Funciona se eu já tiver contratado fornecedores?", "Sim. Você pode aplicar o método nas próximas contratações, na revisão de propostas, em ajustes, pagamentos e escolhas que ainda estão por vir."],
   ["Preciso ter experiência com negociação?", "Não. O conteúdo foi construído para começar pela preparação e avançar por critérios simples e aplicáveis."],
@@ -133,7 +135,7 @@ export default function Home() {
             <img src={logoUrl} alt="Logo Casamento Inteligente" className="h-12 w-12 rounded-full border border-[#c79c53]/40 bg-white object-cover shadow-sm" />
             <span className="hidden leading-none sm:block"><span className="block font-display text-[1.08rem]">Casamento</span><span className="block text-[0.6rem] font-extrabold tracking-[0.18em] text-[#9a7134] uppercase">Inteligente</span></span>
           </a>
-          <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="header" className="btn-primary px-4 py-2.5 text-xs sm:px-5">Quero o método <ArrowRight className="h-3.5 w-3.5" /></a>
+          <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="header" className="btn-primary whitespace-nowrap px-3 py-2.5 text-[0.68rem] sm:px-5 sm:text-xs">Quero o Método CASAR+ <ArrowRight className="h-3.5 w-3.5" /></a>
         </div>
       </header>
 
@@ -146,9 +148,8 @@ export default function Home() {
             <h1 className="mt-6 max-w-[760px] font-display text-[3.1rem] leading-[.92] tracking-[-.045em] text-[#263020] sm:text-6xl lg:text-[4.55rem]">Seu casamento pode custar menos sem parecer um casamento barato.</h1>
             <p className="mt-7 max-w-xl text-[1rem] leading-7 text-[#536048] sm:text-[1.08rem]">Aprenda a planejar, comparar fornecedores e negociar melhor para economizar no orçamento do seu casamento — sem abrir mão da qualidade e do que importa para vocês.</p>
             <p className="mt-5 flex items-center gap-2 text-sm font-bold text-[#45543b]"><span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#e7d3a6] text-[#816133]"><Sparkles className="h-3.5 w-3.5" /></span> Conheça o <strong>Método CASAR+</strong>, um processo para decidir com estratégia.</p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="hero" className="btn-primary">Quero conhecer o Método CASAR+ <ArrowRight className="h-4 w-4" /></a>
-              <a href="#como-funciona" className="btn-ghost">Entender como funciona</a>
+            <div className="mt-8 flex">
+              <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="hero" className="btn-primary">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></a>
             </div>
             <div className="mt-7 grid max-w-xl grid-cols-2 gap-x-4 gap-y-3 border-t border-[#d8cdaF] pt-5 text-xs font-bold text-[#617057] sm:grid-cols-4">
               {[[BadgeCheck, "Acesso imediato"], [BookOpen, "Conteúdo prático"], [ClipboardCheck, "Ferramentas aplicáveis"], [ShieldCheck, "Garantia de 7 dias"]].map(([Icon, text]) => {
@@ -189,7 +190,7 @@ export default function Home() {
           <div className="mt-8 grid gap-px overflow-hidden border border-[#d5c49e] bg-[#d5c49e] md:grid-cols-5">
             {methodSteps.map(({ letter, title, text, Icon }, index) => <article key={`${letter}-${title}`} className={`relative min-h-[270px] p-6 ${index === 0 ? "bg-[#2d3b27] text-[#fff9eb]" : "bg-[#fcf9f0] text-[#34402b]"}`}><div className="flex items-start justify-between"><span className={`font-display text-5xl ${index === 0 ? "text-[#e2b96d]" : "text-[#a97d39]"}`}>{letter}</span><Icon className={`h-5 w-5 ${index === 0 ? "text-[#e4c37c]" : "text-[#697557]"}`} /></div><h3 className="mt-12 font-display text-2xl leading-[1.02]">{title}</h3><p className={`mt-4 text-sm leading-6 ${index === 0 ? "text-[#e5e7d7]" : "text-[#64705c]"}`}>{text}</p></article>)}
           </div>
-          <div className="mt-8 flex flex-col justify-between gap-4 border-t border-[#d7c9a8] pt-6 sm:flex-row sm:items-center"><p className="font-display text-xl italic text-[#536047]">O método não escolhe por vocês. Ele torna a escolha mais consciente.</p><a href="#oferta" className="btn-primary shrink-0">Quero aplicar o CASAR+ <ArrowRight className="h-4 w-4" /></a></div>
+          <div className="mt-8 flex flex-col justify-between gap-4 border-t border-[#d7c9a8] pt-6 sm:flex-row sm:items-center"><p className="font-display text-xl italic text-[#536047]">O método não escolhe por vocês. Ele torna a escolha mais consciente.</p><a href="#oferta" className="btn-primary shrink-0">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></a></div>
         </div>
       </section>
 
@@ -230,11 +231,11 @@ export default function Home() {
 
       <section id="duvidas" className="bg-[#f8f5ed] py-22 sm:py-28"><div className="container grid gap-10 lg:grid-cols-[.7fr_1.3fr] lg:gap-20"><div><p className="section-kicker">Perguntas frequentes</p><h2 className="mt-6 font-display text-4xl leading-[.98] tracking-[-.035em] text-[#2c3726] sm:text-5xl">Tudo o que vocês precisam saber antes de começar.</h2><p className="mt-6 text-base leading-7 text-[#5c6654]">Transparência também faz parte de um planejamento inteligente.</p></div><div className="divide-y divide-[#d9cfb9] border-y border-[#d9cfb9]">{faqs.map(([question, answer], index) => <div key={question}><button onClick={() => setOpenFaq(openFaq === index ? null : index)} className="flex w-full items-center justify-between gap-6 py-5 text-left" aria-expanded={openFaq === index}><span className="text-sm font-extrabold leading-6 text-[#3b4932] sm:text-[0.95rem]">{question}</span><span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[#c5ad78] text-[#836432] transition ${openFaq === index ? "rotate-180 bg-[#ead8a9]" : ""}`}><ChevronDown className="h-4 w-4" /></span></button>{openFaq === index && <p className="max-w-2xl pb-6 pr-10 text-sm leading-6 text-[#65705b]">{answer}</p>}</div>)}</div></div></section>
 
-      <section className="relative overflow-hidden bg-[#eae0cc] py-20"><div className="container grid gap-8 lg:grid-cols-[1.05fr_.95fr] lg:items-center"><div><p className="section-kicker">O próximo passo é de vocês</p><h2 className="mt-6 max-w-3xl font-display text-4xl leading-[.97] tracking-[-.035em] text-[#2b3825] sm:text-5xl">Seu casamento merece ser inesquecível. Seu orçamento também merece ser respeitado.</h2><p className="mt-6 max-w-2xl text-base leading-7 text-[#5c6653]">Você não precisa escolher entre ter um casamento bonito e cuidar do seu dinheiro. Com estratégia, informação e boas decisões, é possível planejar de forma muito mais inteligente.</p></div><div className="border border-[#cbb98f] bg-[#fffaf0] p-7 shadow-[0_18px_42px_rgba(50,58,40,.09)] sm:p-9"><CircleAlert className="h-6 w-6 text-[#b48742]" /><p className="mt-5 font-display text-3xl leading-8 text-[#33402b]">Comece por entender o método. Depois, decidam com mais clareza.</p><button onClick={() => openCheckout("final_cta")} data-analytics-event="checkout_start" className="btn-primary mt-7 w-full">Quero começar com o Método CASAR+ <ArrowRight className="h-4 w-4" /></button></div></div></section>
+      <section className="relative overflow-hidden bg-[#eae0cc] py-20"><div className="container grid gap-8 lg:grid-cols-[1.05fr_.95fr] lg:items-center"><div><p className="section-kicker">O próximo passo é de vocês</p><h2 className="mt-6 max-w-3xl font-display text-4xl leading-[.97] tracking-[-.035em] text-[#2b3825] sm:text-5xl">Seu casamento merece ser inesquecível. Seu orçamento também merece ser respeitado.</h2><p className="mt-6 max-w-2xl text-base leading-7 text-[#5c6653]">Você não precisa escolher entre ter um casamento bonito e cuidar do seu dinheiro. Com estratégia, informação e boas decisões, é possível planejar de forma muito mais inteligente.</p></div><div className="border border-[#cbb98f] bg-[#fffaf0] p-7 shadow-[0_18px_42px_rgba(50,58,40,.09)] sm:p-9"><CircleAlert className="h-6 w-6 text-[#b48742]" /><p className="mt-5 font-display text-3xl leading-8 text-[#33402b]">Comece por entender o método. Depois, decidam com mais clareza.</p><button onClick={() => openCheckout("final_cta")} data-analytics-event="checkout_start" className="btn-primary mt-7 w-full">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></button></div></div></section>
 
       <footer className="bg-[#20271b] py-10 text-[#d9ddcc]"><div className="container flex flex-col gap-7 sm:flex-row sm:items-center sm:justify-between"><div className="flex items-center gap-3"><img src={logoUrl} alt="Casamento Inteligente" className="h-12 w-12 rounded-full object-cover" /><div><p className="font-display text-lg text-[#fff9e8]">Casamento Inteligente</p><p className="text-[0.63rem] font-extrabold tracking-[.18em] text-[#d1ae67] uppercase">Método CASAR+</p></div></div><div className="max-w-md text-xs leading-5 text-[#bfc7b0] sm:text-right">Planejamento de casamento, orçamento, fornecedores e negociação com mais clareza para o casal.</div></div></footer>
 
-      <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="mobile_sticky" className="fixed bottom-3 left-3 right-3 z-50 flex items-center justify-center gap-2 rounded-full bg-[#b8893f] px-5 py-4 text-sm font-extrabold text-[#283121] shadow-[0_16px_35px_rgba(0,0,0,.22)] md:hidden">Quero conhecer o Método CASAR+ <ArrowRight className="h-4 w-4" /></a>
+      <a href="#oferta" data-analytics-event="cta_click" data-analytics-label="mobile_sticky" className="fixed bottom-3 left-3 right-3 z-50 flex items-center justify-center gap-2 rounded-full bg-[#b8893f] px-5 py-4 text-sm font-extrabold text-[#283121] shadow-[0_16px_35px_rgba(0,0,0,.22)] md:hidden">Quero o Método CASAR+ <ArrowRight className="h-4 w-4" /></a>
     </main>
   );
 }

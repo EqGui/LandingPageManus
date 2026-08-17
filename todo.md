@@ -1,5 +1,4 @@
-- [ ] Reorganizar a página pela jornada de decisão: problema, mecanismo, aplicação, valor, objeções e oferta.
-- [ ] Reescrever hero, método CASAR+, economia ilustrativa e conteúdos do curso com foco em clareza e credibilidade.
-- [ ] Criar calculadora demonstrativa, comparação de fornecedores, antes e depois e seção de criadores Guilherme e Mariana sem credenciais inventadas.
-- [ ] Reforçar oferta, ancoragem de valor, FAQ e CTAs, respeitando a ausência de escassez ou depoimentos fictícios.
-- [ ] Validar desktop e celular, salvar checkpoint e entregar a versão otimizada.
+- [ ] Auditar o hero, a metodologia, as ferramentas, a calculadora, a comparação, os criadores, a oferta, as objeções e o FAQ.
+- [ ] Documentar quais elementos existentes serão preservados e quais ajustes apresentam maior impacto potencial de conversão.
+- [ ] Aplicar apenas melhorias seletivas de clareza, consistência do CTA, percepção de valor e prioridade mobile.
+- [ ] Validar a página refinada em desktop e celular, salvar checkpoint e entregar o resultado auditado.
