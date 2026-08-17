@@ -1,5 +1,5 @@
-- [x] Localizar todas as menções atuais a valor à vista e ao preço anterior.
-- [x] Atualizar a oferta para exibir somente 12x de R$ 49,90.
-- [x] Remover o valor à vista do banner, oferta, FAQ e microcopies relacionadas.
-- [x] Validar preço, checkout, build, desktop e celular.
+- [x] Localizar as microcopies atuais de preço e parcelamento.
+- [x] Atualizar para R$ 497,00 em até 10x de R$ 49,70 sem juros.
+- [x] Atualizar banner, oferta e FAQ sem alterar o checkout ou o design.
+- [x] Validar preço, build, checkout, desktop e celular.
 - [x] Salvar checkpoint e publicar a atualização.
