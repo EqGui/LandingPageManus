@@ -1,6 +1,5 @@
-- [x] Auditar a landing page em 320, 360, 375, 390, 414, 768, 1024 e 1280 px.
-- [x] Localizar textos cortados, overflow horizontal, tabelas largas, botões comprimidos e accordions difíceis de ler.
-- [x] Corrigir a quebra da linha de transformação do hero em mobile.
-- [x] Confirmar que o CTA móvel não cobre conteúdo e que o CTA do header permanece dentro da viewport.
-- [x] Reexecutar build e auditoria precisa nas oito larguras.
-- [x] Salvar checkpoint e entregar a versão responsiva.
+- [x] Mapear todos os CTAs de compra atuais e os pontos de preço.
+- [x] Atualizar a oferta para 12x de R$ 51,40 ou R$ 497,00 à vista.
+- [x] Conectar todos os CTAs de compra ao checkout oficial da Hotmart.
+- [x] Validar cliques, URL, preço, build, desktop e celular.
+- [x] Salvar checkpoint e publicar a atualização.
