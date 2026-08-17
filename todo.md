@@ -6,4 +6,4 @@
 - [x] Substituir a foto dos criadores pelo novo arquivo enviado.
 - [x] Retirar o texto “Objeções comuns” e destacar 10x de R$ 49,70, reduzindo visualmente R$ 497,00.
 - [x] Validar conteúdo, imagem, CTAs, preço e responsividade.
-- [ ] Salvar checkpoint e publicar a atualização.
+- [x] Salvar checkpoint e publicar a atualização.
