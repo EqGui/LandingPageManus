@@ -1,5 +1,4 @@
-- [ ] Conferir os textos atuais de objeções, FAQ, ferramentas, oferta, lançamento, calculadora e garantia.
-- [ ] Substituir somente as perguntas e respostas de objeções e FAQ pelos textos aprovados, preservando os accordions.
-- [ ] Atualizar descrições de ferramentas e microcopy de oferta, lançamento, calculadora e garantia sem alterar preço ou layout.
-- [ ] Validar todos os accordions, CTAs, calculadora, HTML pré-renderizado, desktop e celular.
-- [ ] Salvar checkpoint e entregar a última atualização cirúrgica.
+- [ ] Conferir as respostas atualmente vinculadas a cada accordion de objeções e FAQ.
+- [ ] Inserir conteúdo somente se alguma resposta solicitada estiver ausente.
+- [ ] Testar todos os accordions no desktop e no celular, sem alterar demais seções.
+- [ ] Salvar a verificação pontual e entregar o resultado.
