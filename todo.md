@@ -1,4 +1,6 @@
-- [x] Atualizar a faixa superior para “Método CASAR+ — aprenda a negociar com fornecedores”, sem preço.
-- [x] Trocar “Curadoria CASAR+” por “Método CASAR+”.
-- [x] Validar a oferta principal, build, desktop e celular.
+- [x] Remover o último botão “Quero o Método CASAR+”.
+- [x] Centralizar a frase “Clareza para decidir também é uma forma de cuidado.” acima do botão principal.
+- [x] Corrigir o alinhamento das linhas da tabela de critérios dos fornecedores A e B.
+- [x] Inserir a foto real de Guilherme e Mariana na seção dos autores.
+- [x] Validar layout, imagem, tabela, CTAs e responsividade.
 - [x] Salvar checkpoint e publicar a atualização.
