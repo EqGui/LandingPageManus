@@ -99,3 +99,43 @@
 - [x] Regenerar o lockfile com pnpm 11.22.0 e validar pnpm build/dist.
 - [x] Confirmar que não houve alteração visual ou funcional na landing page.
 - [x] Preparar commit no GitHub com a mensagem solicitada.
+
+# Aplicação do pasted_content_2.txt
+
+- [x] Ler e identificar as alterações solicitadas no segundo arquivo anexado.
+- [x] Aplicar as mudanças compatíveis ao projeto sem remover funcionalidades existentes.
+- [x] Validar TypeScript, build, testes e comportamento visual após a aplicação.
+- [ ] Salvar e publicar o checkpoint correspondente.
+
+# Aplicação do pasted_content_2.txt
+
+- [x] Ler e identificar as alterações solicitadas no segundo arquivo anexado.
+- [x] Aplicar as mudanças compatíveis ao projeto sem remover funcionalidades existentes.
+- [x] Validar TypeScript, build, testes e comportamento visual após a aplicação.
+- [ ] Salvar e publicar o checkpoint correspondente.
+
+# Validação visual pós-migração para build/
+
+- [x] Validar visualmente desktop e mobile após alterar a saída para build/.
+- [x] Confirmar imagens, fontes, FAQ/accordions, calculadora, CTAs e layout sem regressões.
+- [ ] Salvar e publicar o checkpoint após a validação visual.
+
+# Validação funcional pós-migração para build/
+
+- [x] Testar em navegador os accordions de FAQ e objeções após a migração para build/.
+- [x] Testar a calculadora de orçamento após a migração para build/.
+- [x] Testar CTAs, checkout Hotmart e links principais após a migração para build/.
+- [ ] Salvar e publicar o checkpoint após a validação funcional pós-migração.
+
+# Confirmação funcional determinística pós-migração
+
+- [x] Comprovar expansão e colapso de FAQ e objeções em navegador após a migração para build/.
+- [x] Clicar em um CTA principal e confirmar navegação real para o checkout Hotmart, sem concluir compra.
+- [x] Validar na prática as âncoras `#inicio` e `#conteudo-principal` após a migração para build/.
+- [ ] Salvar/publicar checkpoint após esses testes determinísticos.
+
+# Evidência determinística de accordions
+
+- [x] Comprovar em navegador a resposta visível e o retorno ao estado fechado de um FAQ.
+- [x] Comprovar em navegador a resposta visível e o retorno ao estado fechado de uma objeção.
+- [ ] Salvar/publicar checkpoint após essa evidência final.
