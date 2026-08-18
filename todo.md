@@ -180,5 +180,5 @@
 - [x] Migrar o build de produção de forma consistente para build/ sem alteração visual ou comercial.
 - [x] Validar `pnpm run build`, artefatos build/index.html, build/ssr/ e build/index.js.
 - [x] Executar teste de produção e validar landing page, SSR, assets, calculadora, FAQ, accordions, CTAs, Hotmart e mobile; evidência registrada em validation_build_output.md.
-- [ ] Registrar e publicar o checkpoint da correção de build.
-- [ ] Sincronizar a alteração no repositório conectado, preservando a branch main e a mensagem “Fix build output paths for Hostinger”.
+- [x] Registrar e publicar o checkpoint da correção de build.
+- [x] Sincronizar a alteração no repositório conectado, preservando a branch main e a mensagem “Fix build output paths for Hostinger”.
