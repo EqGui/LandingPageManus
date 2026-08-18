@@ -190,4 +190,4 @@
 - [x] Inserir CTA “Quero o Método CASAR+” após “Comece por entender o método. Depois, decidam com mais clareza.”
 - [x] Restaurar o espelho de assets exigido pela publicação automática, preservando build/ como saída de implantação na Hostinger.
 - [x] Validar os novos CTAs, build, testes e visual desktop/mobile.
-- [ ] Salvar e publicar o checkpoint com os CTAs adicionais.
+- [x] Salvar e publicar o checkpoint com os CTAs adicionais.
