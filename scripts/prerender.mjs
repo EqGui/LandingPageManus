@@ -3,8 +3,8 @@ import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
 const projectRoot = resolve(import.meta.dirname, "..");
-const indexPath = resolve(projectRoot, "dist/public/index.html");
-const serverEntry = resolve(projectRoot, "dist/ssr/entry-server.js");
+const indexPath = resolve(projectRoot, "build/index.html");
+const serverEntry = resolve(projectRoot, "build/ssr/entry-server.js");
 
 const html = await readFile(indexPath, "utf8");
 const { renderApp } = await import(pathToFileURL(serverEntry).href);

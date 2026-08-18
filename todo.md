@@ -145,13 +145,13 @@
 - [x] Ler e auditar pasted_content_3.txt e os logs da falha de deploy.
 - [x] Fazer o build gerar `dist/public/` para o upload estático e `dist/index.js` para a execução do servidor na Hostinger.
 - [x] Validar artefatos, TypeScript, testes e build de produção.
-- [ ] Salvar e publicar o checkpoint corrigido.
+- [x] Salvar e publicar o checkpoint corrigido.
 
 # Verificação final de assets externos
 
 - [x] Inspecionar explicitamente dist/public/index.html, dist/ssr/entry-server.js e os bundles finais para confirmar ausência de URLs Manus para imagens.
 - [x] Confirmar smoke test do bundle de produção com /, /metodo-casarmais e os seis assets locais.
-- [ ] Salvar e publicar o checkpoint corrigido após a verificação final.
+- [x] Salvar e publicar o checkpoint corrigido após a verificação final.
 
 # Otimização dos assets para publicação
 
@@ -159,17 +159,26 @@
 - [x] Gerar versões otimizadas abaixo de 1 MB preservando o enquadramento.
 - [x] Substituir os assets do projeto e reconstruir dist/public.
 - [x] Validar visualmente desktop/mobile e os caminhos dos assets.
-- [ ] Salvar e publicar o checkpoint otimizado.
+- [x] Salvar e publicar o checkpoint otimizado.
 
 # Correção de transparência dos PNGs otimizados
 
 - [x] Regenerar logo e símbolo botânico preservando canal alpha e aparência original.
 - [x] Confirmar que os PNGs corrigidos continuam abaixo de 1 MB.
 - [x] Rebuild e screenshots desktop/mobile sem alteração visual indesejada.
-- [ ] Salvar e publicar checkpoint após a correção.
+- [x] Salvar e publicar checkpoint após a correção.
 
 # Inspeção comparativa dos assets otimizados
 
 - [x] Comparar logo e símbolo botânico originais com as versões otimizadas, confirmando transparência, paleta e desenho; achados registrados em optimized_assets_validation.md.
 - [x] Registrar aprovação visual desktop/mobile após a segunda otimização; hero, logo, símbolo, autores e oferta sem regressões perceptíveis.
-- [ ] Salvar e publicar checkpoint após a inspeção comparativa.
+- [x] Salvar e publicar checkpoint após a inspeção comparativa.
+
+# Correção definitiva do build para Hostinger — pasted_content_4.txt
+
+- [x] Auditar scripts, Vite, prerender, servidor e todas as referências a dist/, build/ e public/.
+- [x] Migrar o build de produção de forma consistente para build/ sem alteração visual ou comercial.
+- [x] Validar `pnpm run build`, artefatos build/index.html, build/ssr/ e build/index.js.
+- [x] Executar teste de produção e validar landing page, SSR, assets, calculadora, FAQ, accordions, CTAs, Hotmart e mobile; evidência registrada em validation_build_output.md.
+- [ ] Registrar e publicar o checkpoint da correção de build.
+- [ ] Sincronizar a alteração no repositório conectado, preservando a branch main e a mensagem “Fix build output paths for Hostinger”.

@@ -10,11 +10,11 @@ async function startServer() {
   const app = express();
   const server = createServer(app);
 
-  // Serve static files from dist/public in production
+  // O bundle de produção e os artefatos estáticos vivem juntos em build/.
   const staticPath =
     process.env.NODE_ENV === "production"
-      ? path.resolve(__dirname, "public")
-      : path.resolve(__dirname, "..", "dist", "public");
+      ? __dirname
+      : path.resolve(__dirname, "..", "build");
 
   app.use(express.static(staticPath));
 
