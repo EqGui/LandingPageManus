@@ -191,3 +191,17 @@
 - [x] Restaurar o espelho de assets exigido pela publicação automática, preservando build/ como saída de implantação na Hostinger.
 - [x] Validar os novos CTAs, build, testes e visual desktop/mobile.
 - [x] Salvar e publicar o checkpoint com os CTAs adicionais.
+
+# Auditoria da pasta public removida no GitHub
+
+- [x] Identificar se a exclusão remota atingiu `client/public`, `dist/public` ou outra pasta pública. (Nenhuma remoção pendente foi encontrada na branch remota.)
+- [x] Restaurar arquivos-fonte necessários ou regenerar artefatos de build, conforme o caminho afetado. (Não foi necessário restaurar: `client/public/assets` permanece íntegra.)
+- [x] Validar o build e sincronizar a restauração sem perder os CTAs recentes. (Não aplicável: remoto e checkpoint atual já estão alinhados.)
+- [x] Salvar o checkpoint de recuperação e orientar a próxima publicação. (Orientação entregue; nenhuma recuperação é necessária.)
+
+# Correção do servidor da publicação automática
+
+- [x] Fazer o build gerar `dist/index.js` compatível com o comando de inicialização automático.
+- [x] Ajustar o servidor para servir `dist/public` em publicação automática e `build/` na Hostinger.
+- [x] Revalidar CTAs, build, testes e o servidor de produção após a correção.
+- [ ] Salvar e publicar o checkpoint com a compatibilidade restaurada.

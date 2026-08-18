@@ -14,10 +14,12 @@ describe("Hostinger build output", () => {
     expect(packageJson.scripts.build).toContain("../build");
     expect(packageJson.scripts.build).toContain("--outdir=build");
     expect(packageJson.scripts.build).toContain("cp -R build dist/public");
+    expect(packageJson.scripts.build).toContain("cp build/index.js dist/index.js");
     expect(packageJson.scripts.start).toContain("build/index.js");
     expect(prerender).toContain('"build/index.html"');
     expect(prerender).toContain('"build/ssr/entry-server.js"');
     expect(server).toContain('path.resolve(__dirname, "..", "build")');
-    expect(server).toContain("? __dirname");
+    expect(server).toContain('path.resolve(__dirname, "public")');
+    expect(server).toContain("autoPublishedStaticPath : __dirname");
   });
 });

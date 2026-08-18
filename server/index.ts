@@ -1,5 +1,6 @@
 import express from "express";
 import { createServer } from "http";
+import { existsSync } from "node:fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -10,10 +11,12 @@ async function startServer() {
   const app = express();
   const server = createServer(app);
 
-  // O bundle de produção e os artefatos estáticos vivem juntos em build/.
+  // A Hostinger executa build/index.js; a publicação automática executa dist/index.js
+  // e disponibiliza os arquivos do frontend em dist/public.
+  const autoPublishedStaticPath = path.resolve(__dirname, "public");
   const staticPath =
     process.env.NODE_ENV === "production"
-      ? __dirname
+      ? (existsSync(path.join(autoPublishedStaticPath, "index.html")) ? autoPublishedStaticPath : __dirname)
       : path.resolve(__dirname, "..", "build");
 
   app.use(express.static(staticPath));
