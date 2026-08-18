@@ -204,4 +204,4 @@
 - [x] Fazer o build gerar `dist/index.js` compatível com o comando de inicialização automático.
 - [x] Ajustar o servidor para servir `dist/public` em publicação automática e `build/` na Hostinger.
 - [x] Revalidar CTAs, build, testes e o servidor de produção após a correção.
-- [ ] Salvar e publicar o checkpoint com a compatibilidade restaurada.
+- [x] Salvar e publicar o checkpoint com a compatibilidade restaurada.
