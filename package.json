@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --outDir ../build && vite build --ssr src/entry-server.tsx --outDir ../build/ssr && node scripts/prerender.mjs && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=build",
+    "build": "rm -rf build dist && vite build --outDir ../build && vite build --ssr src/entry-server.tsx --outDir ../build/ssr && node scripts/prerender.mjs && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=build && mkdir -p dist && cp -R build dist/public",
     "start": "NODE_ENV=production node build/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",

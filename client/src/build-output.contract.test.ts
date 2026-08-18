@@ -13,6 +13,7 @@ describe("Hostinger build output", () => {
 
     expect(packageJson.scripts.build).toContain("../build");
     expect(packageJson.scripts.build).toContain("--outdir=build");
+    expect(packageJson.scripts.build).toContain("cp -R build dist/public");
     expect(packageJson.scripts.start).toContain("build/index.js");
     expect(prerender).toContain('"build/index.html"');
     expect(prerender).toContain('"build/ssr/entry-server.js"');

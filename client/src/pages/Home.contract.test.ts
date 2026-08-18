@@ -24,6 +24,13 @@ describe("landing page — ajustes da oferta e responsividade", () => {
     expect(source).toContain("Sem juros · R$ 497,00 à vista");
   });
 
+  it("posiciona CTAs adicionais após preço, FAQ de pagamento e frase final", () => {
+    expect(source).toContain('openCheckout("offer_price")');
+    expect(source).toContain('openCheckout("faq_payment")');
+    expect(source).toContain('openCheckout("final_clarity")');
+    expect(source).toContain("Comece por entender o método. Depois, decidam com mais clareza.");
+  });
+
   it("não usa largura mínima ou overflow horizontal na comparação", () => {
     const comparisonStart = source.indexOf("Exemplo prático de comparação");
     const comparisonEnd = source.indexOf("Antes e depois do método");

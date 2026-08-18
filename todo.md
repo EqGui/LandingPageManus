@@ -182,3 +182,12 @@
 - [x] Executar teste de produção e validar landing page, SSR, assets, calculadora, FAQ, accordions, CTAs, Hotmart e mobile; evidência registrada em validation_build_output.md.
 - [x] Registrar e publicar o checkpoint da correção de build.
 - [x] Sincronizar a alteração no repositório conectado, preservando a branch main e a mensagem “Fix build output paths for Hostinger”.
+
+# CTAs adicionais e compatibilidade de publicação
+
+- [x] Inserir CTA “Quero o Método CASAR+” após o preço da oferta.
+- [x] Inserir CTA “Quero o Método CASAR+” após a resposta da pergunta “Como funciona o pagamento?”.
+- [x] Inserir CTA “Quero o Método CASAR+” após “Comece por entender o método. Depois, decidam com mais clareza.”
+- [x] Restaurar o espelho de assets exigido pela publicação automática, preservando build/ como saída de implantação na Hostinger.
+- [x] Validar os novos CTAs, build, testes e visual desktop/mobile.
+- [ ] Salvar e publicar o checkpoint com os CTAs adicionais.
