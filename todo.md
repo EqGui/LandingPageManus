@@ -98,4 +98,4 @@
 - [x] Configurar packageManager para pnpm 11.22.0 e migrar a configuração necessária sem remover dependências essenciais.
 - [x] Regenerar o lockfile com pnpm 11.22.0 e validar pnpm build/dist.
 - [x] Confirmar que não houve alteração visual ou funcional na landing page.
-- [ ] Preparar commit no GitHub com a mensagem solicitada.
+- [x] Preparar commit no GitHub com a mensagem solicitada.
