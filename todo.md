@@ -105,37 +105,71 @@
 - [x] Ler e identificar as alterações solicitadas no segundo arquivo anexado.
 - [x] Aplicar as mudanças compatíveis ao projeto sem remover funcionalidades existentes.
 - [x] Validar TypeScript, build, testes e comportamento visual após a aplicação.
-- [ ] Salvar e publicar o checkpoint correspondente.
+- [x] Salvar e publicar o checkpoint correspondente.
 
 # Aplicação do pasted_content_2.txt
 
 - [x] Ler e identificar as alterações solicitadas no segundo arquivo anexado.
 - [x] Aplicar as mudanças compatíveis ao projeto sem remover funcionalidades existentes.
 - [x] Validar TypeScript, build, testes e comportamento visual após a aplicação.
-- [ ] Salvar e publicar o checkpoint correspondente.
+- [x] Salvar e publicar o checkpoint correspondente.
 
 # Validação visual pós-migração para build/
 
 - [x] Validar visualmente desktop e mobile após alterar a saída para build/.
 - [x] Confirmar imagens, fontes, FAQ/accordions, calculadora, CTAs e layout sem regressões.
-- [ ] Salvar e publicar o checkpoint após a validação visual.
+- [x] Salvar e publicar o checkpoint após a validação visual.
 
 # Validação funcional pós-migração para build/
 
 - [x] Testar em navegador os accordions de FAQ e objeções após a migração para build/.
 - [x] Testar a calculadora de orçamento após a migração para build/.
 - [x] Testar CTAs, checkout Hotmart e links principais após a migração para build/.
-- [ ] Salvar e publicar o checkpoint após a validação funcional pós-migração.
+- [x] Salvar e publicar o checkpoint após a validação funcional pós-migração.
 
 # Confirmação funcional determinística pós-migração
 
 - [x] Comprovar expansão e colapso de FAQ e objeções em navegador após a migração para build/.
 - [x] Clicar em um CTA principal e confirmar navegação real para o checkout Hotmart, sem concluir compra.
 - [x] Validar na prática as âncoras `#inicio` e `#conteudo-principal` após a migração para build/.
-- [ ] Salvar/publicar checkpoint após esses testes determinísticos.
+- [x] Salvar/publicar checkpoint após esses testes determinísticos.
 
 # Evidência determinística de accordions
 
 - [x] Comprovar em navegador a resposta visível e o retorno ao estado fechado de um FAQ.
 - [x] Comprovar em navegador a resposta visível e o retorno ao estado fechado de uma objeção.
-- [ ] Salvar/publicar checkpoint após essa evidência final.
+- [x] Salvar/publicar checkpoint após essa evidência final.
+
+# Correção do deploy após pasted_content_3.txt
+
+- [x] Ler e auditar pasted_content_3.txt e os logs da falha de deploy.
+- [x] Fazer o build gerar `dist/public/` para o upload estático e `dist/index.js` para a execução do servidor na Hostinger.
+- [x] Validar artefatos, TypeScript, testes e build de produção.
+- [ ] Salvar e publicar o checkpoint corrigido.
+
+# Verificação final de assets externos
+
+- [x] Inspecionar explicitamente dist/public/index.html, dist/ssr/entry-server.js e os bundles finais para confirmar ausência de URLs Manus para imagens.
+- [x] Confirmar smoke test do bundle de produção com /, /metodo-casarmais e os seis assets locais.
+- [ ] Salvar e publicar o checkpoint corrigido após a verificação final.
+
+# Otimização dos assets para publicação
+
+- [x] Medir dimensões e tamanhos dos seis assets originais.
+- [x] Gerar versões otimizadas abaixo de 1 MB preservando o enquadramento.
+- [x] Substituir os assets do projeto e reconstruir dist/public.
+- [x] Validar visualmente desktop/mobile e os caminhos dos assets.
+- [ ] Salvar e publicar o checkpoint otimizado.
+
+# Correção de transparência dos PNGs otimizados
+
+- [x] Regenerar logo e símbolo botânico preservando canal alpha e aparência original.
+- [x] Confirmar que os PNGs corrigidos continuam abaixo de 1 MB.
+- [x] Rebuild e screenshots desktop/mobile sem alteração visual indesejada.
+- [ ] Salvar e publicar checkpoint após a correção.
+
+# Inspeção comparativa dos assets otimizados
+
+- [x] Comparar logo e símbolo botânico originais com as versões otimizadas, confirmando transparência, paleta e desenho; achados registrados em optimized_assets_validation.md.
+- [x] Registrar aprovação visual desktop/mobile após a segunda otimização; hero, logo, símbolo, autores e oferta sem regressões perceptíveis.
+- [ ] Salvar e publicar checkpoint após a inspeção comparativa.

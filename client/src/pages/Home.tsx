@@ -29,12 +29,12 @@ import {
   X,
 } from "lucide-react";
 
-const logoUrl = "/manus-storage/logo-casamento-inteligente_9ffa292e.png";
-const heroUrl = "/manus-storage/casar-hero-wedding-party_a802e434.jpg";
-const planningUrl = "/manus-storage/casar-planning-table_fc5f54e7.jpg";
-const receptionUrl = "/manus-storage/casar-reception-detail_d3e56c34.jpg";
-const botanicalUrl = "/manus-storage/casar-botanical-symbol_8637a981.png";
-const authorsUrl = "/manus-storage/IMG-20260719-WA0032-1_1e37a45a.jpg";
+const logoUrl = "/assets/logo-casamento-inteligente.png";
+const heroUrl = "/assets/casar-hero-wedding-party.jpg";
+const planningUrl = "/assets/casar-planning-table.jpg";
+const receptionUrl = "/assets/casar-reception-detail.jpg";
+const botanicalUrl = "/assets/casar-botanical-symbol.png";
+const authorsUrl = "/assets/IMG-20260719-WA0032-1.jpg";
 
 const methodSteps = [
   { letter: "C", title: "Controle do orçamento", text: "Organize limites, prioridades e decisões antes de começar a contratar.", Icon: WalletCards },
