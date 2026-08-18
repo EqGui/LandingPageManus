@@ -43,7 +43,7 @@
 - [x] Adicionar a rota pública `/metodo-casarmais` apontando para a landing page.
 - [x] Garantir que assets, links internos e checkout funcionem corretamente nessa rota.
 - [x] Validar a rota em preview e na publicação.
-- [ ] Orientar e concluir a vinculação de `casamento-inteligente.com` na área de Domínios.
+- [x] Orientar e concluir a vinculação de `casamento-inteligente.com` na área de Domínios. (Orientação entregue; ativação de DNS/SSL depende do usuário.)
 
 # Validação específica da rota publicada
 
@@ -69,4 +69,33 @@
 - [x] Remover estilos inline duplicados do cabeçalho e do CTA, preservando apenas o espaçamento pretendido.
 - [x] Confirmar a copy atualizada de orçamento e revisar comentários de exclusão sem alterar conteúdo não solicitado.
 - [x] Validar TypeScript, build, testes e screenshots desktop/mobile.
-- [ ] Salvar e publicar novo checkpoint revisado.
+- [x] Salvar e publicar novo checkpoint revisado.
+
+# Integração da calculadora em /calculadora
+
+- [x] Localizar os arquivos ou o projeto da calculadora criado na outra conversa. (Cancelado pelo usuário.)
+- [x] Adicionar a rota pública `/calculadora` sem quebrar a landing page existente. (Cancelado pelo usuário.)
+- [x] Preservar cálculos, visual e responsividade da calculadora integrada. (Cancelado pelo usuário.)
+- [x] Validar a rota, interações e build. (Cancelado pelo usuário.)
+- [x] Salvar e publicar o checkpoint integrado. (Cancelado pelo usuário ou incluído na rodada pnpm.)
+
+# Fonte da calculadora
+
+- [x] Auditar o repositório público `https://github.com/EqGui/calculadora` e identificar a entrada da aplicação. (Repositório retornou 404; integração cancelada.)
+- [x] Integrar a calculadora real do repositório na rota `/calculadora`. (Cancelado pelo usuário.)
+- [x] Validar a integração sem quebrar a landing page, checkout ou rota `/metodo-casarmais`. (Cancelado pelo usuário.)
+
+# Integração do conteúdo anexado
+
+- [x] Ler e identificar o formato e a finalidade de `pasted_content.txt`.
+- [x] Integrar o conteúdo na rota ou componente apropriado sem remover funcionalidades existentes. (Conteúdo era uma especificação de compatibilidade pnpm, tratada nesta rodada.)
+- [x] Validar TypeScript, build, testes e a landing page após a integração.
+- [x] Salvar e publicar o checkpoint integrado. (Cancelado pelo usuário ou incluído na rodada pnpm.)
+
+# Compatibilidade pnpm 11 / Hostinger
+
+- [x] Auditar package.json, pnpm-lock.yaml, patch e overrides atuais.
+- [x] Configurar packageManager para pnpm 11.22.0 e migrar a configuração necessária sem remover dependências essenciais.
+- [x] Regenerar o lockfile com pnpm 11.22.0 e validar pnpm build/dist.
+- [x] Confirmar que não houve alteração visual ou funcional na landing page.
+- [ ] Preparar commit no GitHub com a mensagem solicitada.
