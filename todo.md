@@ -242,3 +242,15 @@
 - [x] Validar XML, único `loc`, ausência de `manus.space` e `pnpm run build`.
 - [x] Confirmar o sitemap público no domínio oficial após a publicação.
 - [x] Criar e sincronizar o commit “Fix sitemap canonical domain” na branch main. (Commit abfb73312faae498db952ea1f370918334c9986f enviado para `main`.)
+- [x] Otimizar a cópia local do favicon para menos de 1 MB, preservando dimensões, transparência e aparência.
+
+# Configuração do favicon enviado
+
+- [x] Copiar a imagem enviada `1001068741.png` para `client/public/assets`.
+- [x] Atualizar a referência do favicon no HTML inicial sem alterar o restante da landing page.
+- [x] Otimizar a cópia local do favicon para 256 px e 75 KB, preservando RGBA e aparência.
+- [x] Validar TypeScript, 13 testes, build, HTML servido, `build/index.html`, `dist/public/index.html` e resposta PNG HTTP 200.
+- [x] Confirmar que o asset final está abaixo de 1 MB e presente em `build/assets` e `dist/public/assets`.
+- [ ] Salvar e publicar o checkpoint da alteração do favicon.
+
+- [x] Comparar o favicon original e a versão otimizada, confirmando proporção, canal alpha e aparência preservados.

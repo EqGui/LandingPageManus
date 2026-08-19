@@ -39,3 +39,7 @@ Uma captura dedicada da seção em largura de 390 px confirmou que a calculadora
 ## Sitemap canônico
 
 O sitemap público em `https://casamento-inteligente.com/sitemap.xml` foi confirmado após o deploy com um único elemento `loc`: `https://casamento-inteligente.com/`. A versão publicada não contém referências a `manus.space`.
+
+## Favicon enviado
+
+A imagem original de 1254×1254 foi convertida para uma versão de favicon de 256×256, mantendo proporção 1:1 e canal RGBA. A comparação determinística contra a referência redimensionada apresentou diferença média 0,000; o arquivo final tem 75.619 bytes, abaixo de 1 MB. O HTML servido, build/index.html e dist/public/index.html apontam para `/assets/casamento-inteligente-favicon.png`, que responde HTTP 200 como `image/png`.
