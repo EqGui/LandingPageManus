@@ -16,3 +16,20 @@ if (!markup || !html.includes('<div id="root"></div>')) {
 
 const prerendered = html.replace('<div id="root"></div>', `<div id="root">${markup}</div>`);
 await writeFile(indexPath, prerendered, "utf8");
+
+const canonicalOrigin = "https://casamento-inteligente.com";
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${canonicalOrigin}/</loc>
+  </url>
+</urlset>
+`;
+const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${canonicalOrigin}/sitemap.xml
+`;
+
+await writeFile(resolve(projectRoot, "build", "sitemap.xml"), sitemap, "utf8");
+await writeFile(resolve(projectRoot, "build", "robots.txt"), robots, "utf8");
