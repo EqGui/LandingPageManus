@@ -15,3 +15,13 @@ Após a inclusão dos novos CTAs, o navegador identificou cinco pontos de conver
 ## Contato oficial
 
 O contato foi validado nos dois locais solicitados: logo após o bloco de garantia/oferta e no rodapé. Ambos exibem `contato@casamento-inteligente.com` como link clicável. O clique no primeiro link acionou o protocolo de e-mail e a inspeção do DOM confirmou dois destinos idênticos: `mailto:contato@casamento-inteligente.com`. A abertura do aplicativo de e-mail em si depende da configuração de cliente de e-mail do dispositivo. As revisões desktop e mobile não apresentaram quebras de texto ou sobreposição.
+
+## Identificadores de CTA para GTM
+
+Os nove CTAs reais de compra foram verificados no DOM com `data-cta-location` distintos: `header`, `hero`, `metodo`, `ferramentas`, `objecoes`, `oferta_preco`, `oferta_conteudo`, `faq_pagamento` e `final`. Todos mantiveram o texto “Quero o Método CASAR+” e o destino `https://pay.hotmart.com/U107190056A`; os cinco elementos de navegação permanecem como links e os quatro CTAs que já usavam `openCheckout` permanecem como botões. As revisões desktop e mobile não mostraram alteração visual.
+
+O CTA âncora do cabeçalho foi acionado após a instrumentação e abriu corretamente `https://pay.hotmart.com/U107190056A` no checkout Hotmart, sem alteração no comportamento de navegação.
+
+As capturas desktop e mobile após a instrumentação confirmaram que os atributos adicionados não alteraram texto, dimensão, posição, cor, espaçamento ou layout dos CTAs.
+
+O CTA em formato de botão `oferta_preco` também foi acionado após a instrumentação. O handler original `openCheckout("offer_price")` permaneceu associado ao botão; o acionamento programático identificou o CTA e iniciou o fluxo de navegação, com a sessão do navegador temporariamente indisponível durante a transição externa. Ao restabelecer a sessão, a landing continuou respondendo normalmente. O teste de contrato confirma que o mesmo handler e URL oficial foram preservados.

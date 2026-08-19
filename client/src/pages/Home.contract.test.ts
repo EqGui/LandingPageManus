@@ -31,6 +31,14 @@ describe("landing page — ajustes da oferta e responsividade", () => {
     expect(source).toContain("Comece por entender o método. Depois, decidam com mais clareza.");
   });
 
+  it("identifica todos os CTAs da Hotmart por localização sem alterar seus destinos", () => {
+    const locations = ["header", "hero", "metodo", "ferramentas", "objecoes", "oferta_preco", "oferta_conteudo", "faq_pagamento", "final"];
+    expect(source.match(/data-cta-location=/g)).toHaveLength(locations.length);
+    locations.forEach((location) => expect(source).toContain(`data-cta-location="${location}"`));
+    expect(source.match(/href=\{CHECKOUT_URL\}/g)).toHaveLength(5);
+    expect(source.match(/openCheckout\("/g)).toHaveLength(4);
+  });
+
   it("mantém o contato oficial apenas na oferta e no rodapé", () => {
     expect(source).toContain("Ainda ficou com alguma dúvida?");
     expect(source).toContain("Fale com o Casamento Inteligente");

@@ -219,3 +219,10 @@
 - [x] Inserir GTM uma única vez no head e o noscript imediatamente após body.
 - [x] Validar build, SSR/prerender, HTML final, unicidade e runtime de produção.
 - [x] Criar e sincronizar o commit “Install Google Tag Manager” na branch main. (Commit b689aaea2edad9519904dcaa79542b0731837b37 enviado para `main`.)
+
+# Identificadores de localização dos CTAs — GTM
+
+- [x] Mapear todos os CTAs que abrem o checkout Hotmart e registrar suas localizações reais.
+- [x] Adicionar `data-cta-location` a cada CTA sem modificar texto, estilo, destino ou comportamento.
+- [x] Validar atributos distintos, destinos Hotmart, visual, comportamento, testes e build. (CTA âncora abriu o checkout Hotmart; CTA de oferta manteve o handler original de checkout.)
+- [ ] Criar e sincronizar o commit “Add CTA location attributes for tracking” na branch main.
