@@ -233,4 +233,4 @@
 - [x] Atualizar a calculadora com as onze categorias e estimativas recalculadas a partir do orçamento informado.
 - [x] Validar total, valores de referência, responsividade, testes e build.
 - [x] Confirmar em viewport mobile que as onze linhas da calculadora permanecem legíveis e sem quebra de layout.
-- [ ] Salvar e publicar o checkpoint da calculadora expandida.
+- [x] Salvar e publicar o checkpoint da calculadora expandida.
