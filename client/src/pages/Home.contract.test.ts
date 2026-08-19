@@ -31,6 +31,13 @@ describe("landing page — ajustes da oferta e responsividade", () => {
     expect(source).toContain("Comece por entender o método. Depois, decidam com mais clareza.");
   });
 
+  it("mantém o contato oficial apenas na oferta e no rodapé", () => {
+    expect(source).toContain("Ainda ficou com alguma dúvida?");
+    expect(source).toContain("Fale com o Casamento Inteligente");
+    expect(source).toContain("Dúvidas sobre o Método CASAR+? Entre em contato pelo e-mail:");
+    expect(source.match(/mailto:contato@casamento-inteligente\.com/g)).toHaveLength(2);
+  });
+
   it("não usa largura mínima ou overflow horizontal na comparação", () => {
     const comparisonStart = source.indexOf("Exemplo prático de comparação");
     const comparisonEnd = source.indexOf("Antes e depois do método");

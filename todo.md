@@ -205,3 +205,10 @@
 - [x] Ajustar o servidor para servir `dist/public` em publicação automática e `build/` na Hostinger.
 - [x] Revalidar CTAs, build, testes e o servidor de produção após a correção.
 - [x] Salvar e publicar o checkpoint com a compatibilidade restaurada.
+
+# Inclusão do e-mail oficial de contato
+
+- [x] Adicionar a mensagem de suporte clicável junto da oferta/garantia, sem alterar CTAs ou oferta.
+- [x] Adicionar a área discreta “Fale com o Casamento Inteligente” no rodapé, mantendo sua identidade visual.
+- [x] Validar mailto, desktop, mobile, TypeScript, testes e build sem regressões.
+- [ ] Sincronizar o commit da alteração na branch main e salvar o checkpoint publicado.

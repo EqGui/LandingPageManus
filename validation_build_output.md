@@ -11,3 +11,7 @@ As screenshots pós-correção em desktop (1280×720) e mobile (390×844), nas r
 ## CTAs adicionais
 
 Após a inclusão dos novos CTAs, o navegador identificou cinco pontos de conversão “Quero o Método CASAR+” direcionados ao checkout Hotmart. Os três novos pontos são os eventos `offer_price`, `faq_payment` e `final_clarity`, posicionados respectivamente após o preço da oferta, após o item “Como funciona o pagamento?” e após a frase final de clareza. As revisões de desktop e mobile não mostraram cortes ou sobreposições.
+
+## Contato oficial
+
+O contato foi validado nos dois locais solicitados: logo após o bloco de garantia/oferta e no rodapé. Ambos exibem `contato@casamento-inteligente.com` como link clicável. O clique no primeiro link acionou o protocolo de e-mail e a inspeção do DOM confirmou dois destinos idênticos: `mailto:contato@casamento-inteligente.com`. A abertura do aplicativo de e-mail em si depende da configuração de cliente de e-mail do dispositivo. As revisões desktop e mobile não apresentaram quebras de texto ou sobreposição.
