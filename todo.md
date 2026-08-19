@@ -212,3 +212,10 @@
 - [x] Adicionar a área discreta “Fale com o Casamento Inteligente” no rodapé, mantendo sua identidade visual.
 - [x] Validar mailto, desktop, mobile, TypeScript, testes e build sem regressões.
 - [x] Sincronizar o commit da alteração na branch main e salvar o checkpoint publicado. (Commit e4edc49d2e51ca263cb21658a09ce5d2eea36621 confirmado localmente e no remoto `main`.)
+
+# Instalação do Google Tag Manager — GTM-5ST33C22
+
+- [x] Auditar o HTML inicial e confirmar ausência de instalação prévia do GTM.
+- [x] Inserir GTM uma única vez no head e o noscript imediatamente após body.
+- [x] Validar build, SSR/prerender, HTML final, unicidade e runtime de produção.
+- [ ] Criar e sincronizar o commit “Install Google Tag Manager” na branch main.
