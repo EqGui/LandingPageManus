@@ -218,4 +218,4 @@
 - [x] Auditar o HTML inicial e confirmar ausência de instalação prévia do GTM.
 - [x] Inserir GTM uma única vez no head e o noscript imediatamente após body.
 - [x] Validar build, SSR/prerender, HTML final, unicidade e runtime de produção.
-- [ ] Criar e sincronizar o commit “Install Google Tag Manager” na branch main.
+- [x] Criar e sincronizar o commit “Install Google Tag Manager” na branch main. (Commit b689aaea2edad9519904dcaa79542b0731837b37 enviado para `main`.)
