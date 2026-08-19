@@ -35,7 +35,3 @@ Após abrir o simulador, o navegador exibiu as onze categorias solicitadas com o
 O valor de entrada foi alterado de R$ 80.000 para R$ 100.000 no navegador. Todas as linhas recalcularam proporcionalmente, incluindo Espaço para R$ 20.000, Alimentação e Bebidas para R$ 28.000 e Lua de Mel para R$ 9.000, confirmando a atualização dinâmica da distribuição.
 
 Uma captura dedicada da seção em largura de 390 px confirmou que a calculadora aberta mantém as onze categorias e seus valores visíveis, em uma coluna de leitura clara, sem overflow horizontal, truncamento ou colisão entre os rótulos e os montantes.
-
-## Sitemap canônico
-
-O sitemap público em `https://casamento-inteligente.com/sitemap.xml` foi confirmado após o deploy com um único elemento `loc`: `https://casamento-inteligente.com/`. A versão publicada não contém referências a `manus.space`.
