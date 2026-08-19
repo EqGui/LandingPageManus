@@ -240,5 +240,5 @@
 - [x] Auditar sitemap.xml e a origem de qualquer referência ao domínio Manus.
 - [x] Atualizar somente a URL canônica do sitemap para `https://casamento-inteligente.com/`.
 - [x] Validar XML, único `loc`, ausência de `manus.space` e `pnpm run build`.
-- [ ] Confirmar o sitemap público no domínio oficial após a publicação.
-- [ ] Criar e sincronizar o commit “Fix sitemap canonical domain” na branch main.
+- [x] Confirmar o sitemap público no domínio oficial após a publicação.
+- [x] Criar e sincronizar o commit “Fix sitemap canonical domain” na branch main. (Commit abfb73312faae498db952ea1f370918334c9986f enviado para `main`.)
