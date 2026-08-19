@@ -115,11 +115,17 @@ export default function Home() {
   const totalBudget = Math.max(0, Number(budget.replace(/\D/g, "")) || 0);
 
   const budgetMap = useMemo(() => [
-    ["Recepção e alimentação", 0.42],
-    ["Foto e filmagem", 0.12],
-    ["Trajes e beleza", 0.10],
-    ["Decoração e flores", 0.11],
-    ["Cerimônia e demais escolhas", 0.25],
+    ["Espaço", 0.20],
+    ["Alimentação e Bebidas", 0.28],
+    ["Fotografia e Filmagem", 0.10],
+    ["Música", 0.08],
+    ["Decoração", 0.10],
+    ["Vestuário", 0.06],
+    ["Alianças", 0.03],
+    ["Convites e Papelaria", 0.02],
+    ["Lembrancinhas", 0.02],
+    ["Lua de Mel", 0.09],
+    ["Site do Casamento", 0.02],
   ] as const, []);
 
   useEffect(() => {

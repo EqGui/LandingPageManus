@@ -24,6 +24,14 @@ describe("landing page — ajustes da oferta e responsividade", () => {
     expect(source).toContain("Sem juros · R$ 497,00 à vista");
   });
 
+  it("distribui a calculadora nas onze categorias solicitadas", () => {
+    const categories = ["Espaço", "Alimentação e Bebidas", "Fotografia e Filmagem", "Música", "Decoração", "Vestuário", "Alianças", "Convites e Papelaria", "Lembrancinhas", "Lua de Mel", "Site do Casamento"];
+    categories.forEach((category) => expect(source).toContain(`"${category}"`));
+    expect(source).toContain('["Espaço", 0.20]');
+    expect(source).toContain('["Alimentação e Bebidas", 0.28]');
+    expect(source).toContain('["Lua de Mel", 0.09]');
+  });
+
   it("posiciona CTAs adicionais após preço, FAQ de pagamento e frase final", () => {
     expect(source).toContain('openCheckout("offer_price")');
     expect(source).toContain('openCheckout("faq_payment")');

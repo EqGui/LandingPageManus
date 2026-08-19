@@ -226,3 +226,11 @@
 - [x] Adicionar `data-cta-location` a cada CTA sem modificar texto, estilo, destino ou comportamento.
 - [x] Validar atributos distintos, destinos Hotmart, visual, comportamento, testes e build. (CTA âncora abriu o checkout Hotmart; CTA de oferta manteve o handler original de checkout.)
 - [x] Criar e sincronizar o commit “Add CTA location attributes for tracking” na branch main. (Commit e94da19595771bcde7955d018f9b373561d66421 confirmado localmente e no remoto `main`.)
+
+# Expansão da calculadora de orçamento
+
+- [x] Definir a distribuição proporcional para Espaço, Alimentação e Bebidas, Fotografia e Filmagem, Música, Decoração, Vestuário, Alianças, Convites e Papelaria, Lembrancinhas, Lua de Mel e Site do Casamento.
+- [x] Atualizar a calculadora com as onze categorias e estimativas recalculadas a partir do orçamento informado.
+- [x] Validar total, valores de referência, responsividade, testes e build.
+- [x] Confirmar em viewport mobile que as onze linhas da calculadora permanecem legíveis e sem quebra de layout.
+- [ ] Salvar e publicar o checkpoint da calculadora expandida.
