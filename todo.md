@@ -234,3 +234,11 @@
 - [x] Validar total, valores de referência, responsividade, testes e build.
 - [x] Confirmar em viewport mobile que as onze linhas da calculadora permanecem legíveis e sem quebra de layout.
 - [x] Salvar e publicar o checkpoint da calculadora expandida.
+
+# Correção do domínio canônico no sitemap
+
+- [x] Auditar sitemap.xml e a origem de qualquer referência ao domínio Manus.
+- [x] Atualizar somente a URL canônica do sitemap para `https://casamento-inteligente.com/`.
+- [x] Validar XML, único `loc`, ausência de `manus.space` e `pnpm run build`.
+- [ ] Confirmar o sitemap público no domínio oficial após a publicação.
+- [ ] Criar e sincronizar o commit “Fix sitemap canonical domain” na branch main.
