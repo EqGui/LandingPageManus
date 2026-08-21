@@ -254,3 +254,13 @@
 - [x] Salvar e publicar o checkpoint da alteração do favicon. (Checkpoint 55a821c1 salvo e publicado.)
 
 - [x] Comparar o favicon original e a versão otimizada, confirmando proporção, canal alpha e aparência preservados.
+
+# Criativos para anúncios no feed do Instagram
+
+- [x] Pesquisar padrões públicos de criativos de alta atenção e definir cinco ângulos éticos de anúncio.
+- [x] Redigir a mensagem, a hierarquia visual e o CTA de cada criativo em formato 1:1.
+- [x] Gerar cinco anúncios quadrados alinhados à identidade editorial do Casamento Inteligente.
+- [x] Revisar legibilidade, consistência de marca e adequação ao feed do Instagram.
+- [x] Entregar os cinco arquivos e as orientações de uso em campanha.
+- [x] Preparar o pacote de entrega com os cinco criativos e o guia de campanha.
+- [ ] Apresentar ao usuário os cinco arquivos, as recomendações de teste e os próximos passos de publicação.
