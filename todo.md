@@ -263,4 +263,4 @@
 - [x] Revisar legibilidade, consistência de marca e adequação ao feed do Instagram.
 - [x] Entregar os cinco arquivos e as orientações de uso em campanha.
 - [x] Preparar o pacote de entrega com os cinco criativos e o guia de campanha.
-- [ ] Apresentar ao usuário os cinco arquivos, as recomendações de teste e os próximos passos de publicação.
+- [x] Apresentar ao usuário os cinco arquivos, as recomendações de teste e os próximos passos de publicação.
