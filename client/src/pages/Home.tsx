@@ -1,7 +1,7 @@
 /* Página: conversão editorial para o Método CASAR+ — a hierarquia conduz da dor à decisão, com marfim, sálvia e dourado como linguagem de confiança. */
 import { useEffect, useMemo, useState } from "react";
 
-const CHECKOUT_URL = "https://pay.hotmart.com/U107190056A";
+const CHECKOUT_URL = "https://pay.hotmart.com/U107190056A?off=kx1jkiq7&checkoutMode=10";
 import { toast } from "sonner";
 import {
   ArrowRight,
